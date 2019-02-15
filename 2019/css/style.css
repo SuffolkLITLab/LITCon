@@ -219,3 +219,40 @@ a.anchor {
 		background-repeat: no-repeat;
 		background-position: center;
 }
+
+
+.session {
+	float:left;
+	width:100%;
+	border-top: solid 1px #ccc;
+	box-sizing: border-box;
+	margin:25px 0 5px 0;
+	padding:13px 15px 0 15px;
+}
+
+.name_frame{
+	width:79px;
+  margin:5px;
+	float:right;
+	text-align:center;
+	margin-left:4px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	height:127px;
+	box-sizing: border-box;
+
+}
+
+.mini_pic {
+	float:right;
+	background-image: url('images/headshots.jpg');
+	margin:5px 0px;
+	z-index:2;
+	background-color: #ddd;
+	border-radius: 50%;
+	background-color: #ddd;
+	border: 2px solid #555;
+	box-sizing: border-box;
+
+}
