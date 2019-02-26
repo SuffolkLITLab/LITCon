@@ -155,6 +155,13 @@ a.menu {
 	height:200px;
 }
 
+.profile_vid_right {
+	float:right;
+	margin:0px 25px 25px 20px;
+	width:400px;
+	height:200px;
+}
+
 .vid_wrapper {
 	float:left;
 	padding-bottom:25px;
@@ -181,6 +188,14 @@ a.menu {
 		margin:15px auto;
 		width:400px;
 	}
+
+	.profile_vid_right {
+		float:none;
+		position:relative;
+		margin:15px auto;
+		width:400px;
+	}
+
 	.embed_vid {
 		float:none;
 		width:100%;
@@ -207,6 +222,13 @@ a.menu {
 	.profile_vid {
 		float:none;
 		width:100%;
+		margin:0px;
+	}
+
+	.profile_vid_right {
+		float:none;
+		width:100%;
+		margin:0px;
 	}
 }
 
