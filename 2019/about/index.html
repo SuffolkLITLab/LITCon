@@ -97,11 +97,16 @@
 	}
 
 	@media only screen and (max-width: 750px) {
+		.showme_content {
+			display:none;
+		}
 		.hideme_content {
+			display:none;
 			float:left;
 			width:100%;
 		}
 		.bot_content {
+			display:none;
 			float:left;
 			right:0;
 			width:100%;
@@ -109,7 +114,6 @@
 		.main_content {
 			float:left;
 			width:100%;
-			display:none;
 		}
 
 	}
@@ -119,7 +123,7 @@
 <body>
 <div style="postion:relative;overflow:hidden;width:100%;height:100%;">
 	<div id="hideme" class="hideme_content">
-	<a href="javascript:void('');" onClick="$('#page').show();$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px'});" style="color:white">HIDE "BOT"</a>
+	<a href="javascript:void('');" onClick="$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px'});" style="color:white">HIDE "BOT"</a>
 	</div>
 	<div id="qna" class="bot_content">
 		<iframe width="100%" height="100%" frameBorder="0" src="https://www.qnamarkup.net/i/?source=https://suffolklitlab.org/LITCon/2019/about/QnA_markup.txt"></iframe>
