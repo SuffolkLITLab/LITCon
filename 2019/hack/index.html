@@ -44,245 +44,90 @@
 	<meta name="twitter:description" content="Join Suffolk University's Law Clinical Programs and the Legal Innovation and Technology (LIT) Concentration for our annual LIT conference.">
 	<meta name="twitter:image" content="http://www.davidcolarusso.com/images/socmedia_header_hackathon.png"/>
 
-</head>
-<body onLoad="msg();">
-<div class="header">
-<div class="logo">
-<a href="http://www.suffolk.edu/law/"><div class="seal">&nbsp;</div></a>
-<a href="../../"><img src="../images/cursor.gif" border="0" width="275px" height="200px"/></a>
-</div>
-</div>
-<div class="menu_bar">
-	<a href="../about" class="menu">About</a>
-	<a href="../agenda" class="menu">Agenda</a>
-	<a href="../speakers" class="menu">Speakers</a>
-	<a href="../litbits" class="menu">LIT&nbsp;Bits</a>
-	<a href="../hack" class="menu">Weekend&nbsp;Hack</a>
-	<a href="../accommodations" class="menu">Accommodations</a>
-	<a href="https://suffolklitlab.slack.com/messages/CGAGZ17FB/" class="menu" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'Open Slack');">Slack</a>
-	<a href="https://twitter.com/search?f=tweets&q=%23LITCon2019" class="menu" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'LITCon2019');">#LITCon2019</a>
-	<a href="https://suffolklitlab.org/events/#past" class="menu" target="_blank">Past</a>
-</div>
-<div class="content">
+	<style>
+	.main_content {
+		position:absolute;
+		z-index:1;
+		left:0px;
+		right:0px;
+		top:0;
+		bottom:0;
+	}
+	.showme_content {
+		position:absolute;
+		z-index:100;
+		right:0;
+		width:115px;
+		bottom:0;
+		height:43px;
+		background:#002e5d;
+		text-align:center;
+		color:white;
+		font-size:12px;
+		font-family:arial;
+		line-height:40px;
+		border-top-left-radius: 15px;
+	}
+	.hideme_content {
+		display:none;
+		position:absolute;
+		border-left: solid 1px #000;
+		z-index:2;
+		right:0;
+		width:375px;
+		top:0;
+		height:40px;
+		background:#002e5d;
+		text-align:center;
+		color:white;
+		font-size:12px;
+		font-family:arial;
+		line-height:40px;
+	}
+	.bot_content {
+		display:none;
+		position:absolute;
+		border-left: solid 1px #000;
+		z-index:2;
+		right:0;
+		width:375px;
+		top:40;
+		bottom:0;
+	}
 
-	<p id="msg" style="display:none;background:#ffe;padding:15px;border: solid 1px #888;margin-top:5px;text-align:center;"></p>
+	@media only screen and (max-width: 750px) {
+		.hideme_content {
+			float:left;
+			width:100%;
+		}
+		.bot_content {
+			float:left;
+			right:0;
+			width:100%;
+		}
+		.main_content {
+			float:left;
+			width:100%;
+		}
 
-<h1>Skills Training &amp; Hackathon</h1>
-<p><b>More Info. Coming Soon!</b>
-	Prior to the conference on April 6-7, there will be a <b>free</b> skills training weekend and hackathon open to anyone. If you're not interested in the hackathon, consider dropping in for the <a href="#skills">skills building sessions</a>.
-</P>
-<p>Join the <a href="http://tubmanproject.com/" target="_blank">Tubman Project</a> to learn new skills and help <b>create open source tools for public defenders</b>. We're looking for developers and attorneys since legal considerations will be just as important as technical ones. More to the point, they'll often be intertwined. For example, is there a possibility that communications across your app's encrypted channel may be subject to discovery?</p>
-<p><b>What is a hackathon anyway?</b> <a href="https://razor.occams.info/">Joshua Tauberer</a> puts it this way, and we tend to agree:
-</p>
+	}
+	</style>
 
-<blockquote cite="https://hackathon.guide/">
-	<li>Hacking is creative problem solving. (It does not have to involve technology.)</li>
-	<li>A hackathon is any event of any duration where people come together to solve problems. Most hackathons I’ve run also have a parallel track for workshops.</li>
-	Participants typically form groups of about 2-5 individuals, take out their laptops (if the event is technology themed), and dive into problems. Training workshops are a great parallel track especially for newcomers but also for all participants.</br>
-	<span style="float:right">-<a href="https://hackathon.guide/" target="_blank">How to Run a Successful Hackathon</a></span>
-</blockquote >&nbsp;
-
-<p><b>Is there a cash prize?</b> Yes. Details coming soon.</p>
-
-<p><b>What is the Tubman Project?</b> The short answer, a collection of civic minded technologist working to help improve the crminal justice system. For a longer answer, check out this post by Tubman Project director Darrell Malone describing his work with Tubman and the last hackathon we hosted together back in November&mdash;<a href="http://dkmalone.com/2018/11/29/the-tubman-project/" target="_blank" >The Tubman Project</a>.</p>
-
-<p><b>How do I sign up?</b> If you are attending LITCon2019, you can check the appropriate boxes as part of the <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'Registration');">online registration</a>. Otherwise, you can register over <a href="https://www.meetup.com/BostonLegalHackers/events/259097306/" target="_blank"  onClick="ga('send', 'event', 'clicks', 'click', 'Hackathon Meetup');">on Meetup</a>.</p>
-
-
-<hr style="border-top: 1px #eee;">
-<h2 style="text-align:center;">TENTATIVE AGENDA</h2>
-<hr style="border-top: 1px #ccc;">
-
-<h2>Saturday, April 6th</h2>
-
-<div class="session">
-	12:00 PM - 2:30 PM</br>
-<a name="skills" href="#skills" class="anchor"></a>
-<span style="font-size:24px;font-weight: bold;">Lunch, Introduction, &amp; Structured Skills Building Sessions</span>
-<p>	Skills building sessions will include trainings on three open source tools for creating guided interviews and auto-generating documents--<a href="https://www.a2jauthor.org/" target="_blank">A2J Author</a>, <a href="https://docassemble.org/" target="_blank">Docassemble</a>, and <a href="https://www.qnamarkup.org/" target="_blank">QnA Markup</a>. The hackathon portion of the weekend is in partnership with the <a href="http://tubmanproject.com/" target="_blank">Tubman Project</a> and will focus on creating tools for public defenders and their clients.</p></p>
-<div style="float:left;width:100%;">
-
-	<span class="name_frame">
-	<a href="../speakers/#colarusso">
-		<div class="mini_pic" style="	background-image: url('../images/colarusso_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
+	</head>
+	<body>
+	<div id="hideme" class="hideme_content">
+	<a href="javascript:void('');" onClick="$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px'});" style="color:white">HIDE "BOT"</a>
 	</div>
-	David Colarusso
-	</a>
-	</span>
-
-	<span class="name_frame">
-	<a href="../speakers/#steenhuis">
-		<div class="mini_pic" style="	background-image: url('../images/steenhuis_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
+	<div id="qna" class="bot_content">
+		<iframe width="100%" height="100%" frameBorder="0" src="https://www.qnamarkup.net/i/?source=https://suffolklitlab.org/LITCon/2019/about/QnA_markup.txt"></iframe>
 	</div>
-	Quinten Steenhuis
-	</a>
-	</span>
 
-	<span class="name_frame">
-	<a href="../speakers/#pyle">
-		<div class="mini_pic" style="	background-image: url('../images/pyle_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
+	<div id="show" class="showme_content">
+	<a href="javascript:void('');" onClick="$('#show').hide();$('#hideme').show();$('#qna').show();$('#page').css({'right':'375px'});" style="color:white">SHOW "BOT"</a>
 	</div>
-	Jonathan Pyle
-	</a>
-	</span>
 
-
-	<span class="name_frame">
-	<a href="../speakers/#nteireho">
-		<div class="mini_pic" style="	background-image: url('../images/nteireho_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
+	<div id="page" class="main_content">
+	<iframe height="100%" width="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/hack/hack.html"></iframe>
 	</div>
-	Tobias Nteireho
-	</a>
-	</span>
-
-
-	<span class="name_frame">
-	<a href="../speakers/#frank">
-		<div class="mini_pic" style="	background-image: url('../images/frank_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Jessica Frank
-	</a>
-	</span>
-
-	<span class="name_frame">
-	<a href="../speakers/#malone">
-		<div class="mini_pic" style="	background-image: url('../images/malone_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Darrell Malone	</a>
-	</span>
-
-</div>
-</div>
-
-
-<div class="session" style="margin-bottom:45px">
-	2:30 PM - 9:00 PM</br>
-<a name="hack1" href="#hack1" class="anchor"></a>
-<span style="font-size:24px;font-weight: bold;">Hacking</span>
-<p>Hang out and try your hand at building something with your new skills and/or join a team and build something for the hackathon proper. Darrell and David will be on site to answer your questions.</p>
-<div style="float:left;width:100%;">
-	<span class="name_frame">
-	<a href="../speakers/#colarusso">
-		<div class="mini_pic" style="	background-image: url('../images/colarusso_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	David Colarusso
-	</a>
-	</span>
-
-	<span class="name_frame">
-	<a href="../speakers/#malone">
-		<div class="mini_pic" style="	background-image: url('../images/malone_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Darrell Malone	</a>
-	</span>
-</div>
-</div>
-
-</br>
-<hr style="border-top: 1px #ccc;">
-<h2>Sunday, April 7th</h2>
-
-<div class="session" style="margin-bottom:45px">
-	9:00 AM - 9:00 PM</br>
-<a name="hack2" href="#hack2" class="anchor"></a>
-<span style="font-size:24px;font-weight: bold;">Hacking</span>
-<p>Continue working on your project or just hang out and enjoy the vibe. Again, Darrell and David will be on site to answer your questions.</p>
-<div style="float:left;width:100%;">
-	<span class="name_frame">
-	<a href="../speakers/#colarusso">
-		<div class="mini_pic" style="	background-image: url('../images/colarusso_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	David Colarusso
-	</a>
-	</span>
-
-	<span class="name_frame">
-	<a href="../speakers/#malone">
-		<div class="mini_pic" style="	background-image: url('../images/malone_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Darrell Malone	</a>
-	</span>
-</div>
-</div>
-
-</br>
-<hr style="border-top: 1px #ccc;">
-<h2>Monday, April 8th</h2>
-
-<div class="session">
-	4:00 PM - 6:00 PM</br>
-<a name="demos" href="#demos" class="anchor"></a>
-<span style="font-size:24px;font-weight: bold;">Reception, Project Demos, Judging, &amp; Awards</span>
-<p>Demo your projects for the judges and attendees of LITCon2019 while enjoying a drink and some horderves in the Blue Sky Lounge at 120 Tremont St.</p>
-<div style="float:left;width:100%;">
-	<span class="name_frame">
-	<a href="../speakers/#">
-		<div class="mini_pic" style="	background-image: url('../images/_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Pending Announcement
-	</a>
-	</span>
-
-
-	<span class="name_frame">
-	<a href="../speakers/#">
-		<div class="mini_pic" style="	background-image: url('../images/_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Pending Announcement
-	</a>
-	</span>
-
-	<span class="name_frame">
-	<a href="../speakers/#">
-		<div class="mini_pic" style="	background-image: url('../images/_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Pending Announcement
-	</a>
-	</span>
-
-	<span class="name_frame">
-	<a href="../speakers/#oleary">
-		<div class="mini_pic" style="	background-image: url('../images/oleary_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Dyane O'Leary
-	</a>
-	</span>
-
-	<span class="name_frame">
-	<a href="../speakers/#malone">
-		<div class="mini_pic" style="	background-image: url('../images/malone_75.jpg');">
-		<img src="../images/space.gif" style="width:75px;height:75px;"/>
-	</div>
-	Darrel Malone	</a>
-	</span>
-
-</div>
-</div>
-
-
-
-<div class="footer">
-	<a href="https://suffolklitlab.org/"><img src="../images/blue_logo.png" width="50px" align="left" border="0"/></a>
-
-Suffolk Law Clinical Program, 120 Tremont St., Boston, MA 02108<br/><br/>
-Hosted by the Suffolk University Law School's <br/><a href="https
-://www.suffolk.edu/law/clinics">Clinical Programs</a>, <a href="https://sites.suffolk.edu/legaltech/">LIT Institute</a>, and <a href="https://suffolklitlab.org/">LIT Lab</a>.
-
-<br/><br/><a href="mailto:jluke@suffolk.edu">Contact</a>
-| <a href="https://suffolklitlab.org/terms/">Terms &amp; Privacy</a>
-</div>
-</body>
+	</body>
+	</html>

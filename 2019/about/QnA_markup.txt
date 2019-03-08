@@ -24,7 +24,7 @@ body{
 	background-size: 100px;
 	background-position: center;
  	background-repeat: no-repeat;
-	background-image: url('http://suffolklitlab.org/images/seal.jpg');
+	background-image: url('https://suffolklitlab.org/images/seal.jpg');
 }
 .title {
 	text-align:center;
@@ -64,9 +64,9 @@ A: No
 Q(problems): Are there things about the way you (or the justice system) work(s) that you think could use improvement? 
 A: Yes
 	Q(4.1): Cool, that's what we're all about, solving problems, and don't worry. It's not a <i>Legal Tech Conference</i>, it's a <i>Legal Innovation and Technology Conference</i>. It's not about shiny tools. It's about identifying problems and fixing things.<br><br>That being said, what's your comfort level with tech?
-	A: I can use Word/Wordperfect
+	A: I can use Word/Wordperfect.
 		Q(4.1.1): <img src="https://media.giphy.com/media/1S3vm6ISM2gDu/giphy.gif"/> GOTO:everyone
-	A: Give me a command line
+	A: Give me a command line.
 		Q(4.1.2): <img src="https://media.giphy.com/media/gPkWsM6X5xLVe/giphy.gif"/> 
 		A: I'd love to play a game. 
 			Q(4.1.2.1):<img src="//jasoneppink.com/wp-content/gallery/the-reaction-gif-moving-image-as-gesture/kermit.gif"> GOTO:wargames
