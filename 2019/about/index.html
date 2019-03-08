@@ -29,6 +29,7 @@
 	ga('send', 'pageview');
 	</script>
 	<!-- End Google Analytics -->
+
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="../js/scripts.js?v=2019-03-04"></script>
 
@@ -44,72 +45,88 @@
 	<meta name="twitter:description" content="Join Suffolk University's Law Clinical Programs and the Legal Innovation and Technology (LIT) Concentration for our annual LIT conference.">
 	<meta name="twitter:image" content="http://www.davidcolarusso.com/images/socmedia_header_about.png"/>
 
+	<style>
+	.main_content {
+		position:absolute;
+		z-index:1;
+		left:0px;
+		right:375px;
+		top:0;
+		bottom:0;
+	}
+	.showme_content {
+		display:none;
+		position:absolute;
+		z-index:100;
+		right:0;
+		width:115px;
+		bottom:0;
+		height:43px;
+		background:#002e5d;
+		text-align:center;
+		color:white;
+		font-size:12px;
+		font-family:arial;
+		line-height:40px;
+		border-top-left-radius: 15px;
+	}
+	.hideme_content {
+		position:absolute;
+		z-index:2;
+		right:0;
+		width:375px;
+		top:0;
+		height:40px;
+		background:#002e5d;
+		text-align:center;
+		color:white;
+		font-size:12px;
+		font-family:arial;
+		line-height:40px;
+	}
+	.bot_content {
+		position:absolute;
+		z-index:2;
+		right:0;
+		width:375px;
+		top:40;
+		bottom:0;
+	}
+
+	@media only screen and (max-width: 750px) {
+		.hideme_content {
+			float:left;
+			width:100%;
+		}
+		.bot_content {
+			float:left;
+			right:0;
+			width:100%;
+		}
+		.main_content {
+			float:left;
+			width:100%;
+		}
+
+	}
+	</style>
+
 </head>
-<body onLoad="msg();">
-<div class="header">
-<div class="logo">
-<a href="http://www.suffolk.edu/law/"><div class="seal">&nbsp;</div></a>
-<a href="../../"><img src="../images/cursor.gif" border="0" width="275px" height="200px"/></a>
-</div>
-</div>
-<div class="menu_bar">
-	<a href="../about" class="menu">About</a>
-	<a href="../agenda" class="menu">Agenda</a>
-	<a href="../speakers" class="menu">Speakers</a>
-	<a href="../litbits" class="menu">LIT&nbsp;Bits</a>
-	<a href="../hack" class="menu">Weekend&nbsp;Hack</a>
-	<a href="../accommodations" class="menu">Accommodations</a>
-	<a href="https://suffolklitlab.slack.com/messages/CGAGZ17FB/" class="menu" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'Open Slack');">Slack</a>
-	<a href="https://twitter.com/search?f=tweets&q=%23LITCon2019" class="menu" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'LITCon2019');">#LITCon2019</a>
-	<a href="https://suffolklitlab.org/events/#past" class="menu" target="_blank">Past</a>
-</div>
-<div class="content">
+<body>
 
-	<p id="msg" style="display:none;background:#ffe;padding:15px;border: solid 1px #888;margin-top:5px;text-align:center;"></p>
+	<div id="hideme" class="hideme_content">
+	<a href="javascript:void('');" onClick="$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px'});" style="color:white">HIDE "BOT"</a>
+	</div>
+	<div id="qna" class="bot_content">
+		<iframe width="100%" height="100%" frameBorder="0" src="https://www.qnamarkup.net/i/?source=https://suffolklitlab.org/LITCon/2019/about/QnA_markup.txt"></iframe>
+	</div>
 
-	<h2 align=center>Join Suffolk Law's Clinical Programs and Legal Innovation and Technology (LIT) Concentration for our second annual legal tech conference—LIT Con 2019.</h2>
+	<div id="show" class="showme_content">
+	<a href="javascript:void('');" onClick="$('#show').hide();$('#hideme').show();$('#qna').show();$('#page').css({'right':'375px'});" style="color:white">SHOW "BOT"</a>
+	</div>
 
-	<li><b>Keynote Speaker:</b> <a href="../speakers/#rickard">Erika Rickard</a> (<a href="https://www.pewtrusts.org/en/projects/civil-legal-system-modernization">Civil Legal System Modernization</a>, Pew Charitable Trusts)</li>
-	<li>
-		Hear from leaders in legal tech, including the people behind innovative work at <a href="http://www.theoryandprinciple.com/" traget="_blank">Theory and Principle</a>, <a href="https://www.joinpaladin.com/" traget="_blank">Paladin</a>, <a href="https://community.lawyer/" traget="_blank">Community Lawyer</a>, and <a href="https://www.gbls.org/" traget="_blank">Greater Boston Legal Services</a>.
-	</li>
-	<li>
-		Network with clinicians, legal services providers, educators, and legal tech leaders.
-	</li>
+	<div id="page" class="main_content">
+	<iframe height="100%" width="100%" frameBorder="0" src="about.html"></iframe>
+	</div>
 
-	<p style="text-align:center;">
-		<font size=+2><b><a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" style="color:red" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'Registration');">Register Now!!!</a> $25</b></font>
-		</br>
-			(Public service waivers available)</br>
-			Registration deadline April 1st.
-	</p>
-
-	<p style="text-align:center">Monday, April 8, 2019*<br/>
-	9:00 AM - 6:00 PM</p>
-
-	<p style="text-align:center">
-	Suffolk Law, Sargent Hall <br/>
-	120 Tremont St., Boston, MA 02108 <br/>
-	1st Floor Function Room <br/>
-	</p>
-
-	<p style="text-align:center">*April 6-7 there will be a <a href="https://suffolklitlab.org/LITCon/2019/hack/">free skills training weekend and a hackathon</a>.</p>
-
-	<p style="text-align:center;background:#eef;padding:15px;"><a href="../litbits"><font size=+2><b>Open Call for Rapid-fire talks.</a></b></font></br> (limited funds are available to defer costs for diverse speakers)</p>
-
-	<p style="text-align:center">
-	<b>Questions or accommodations?</b><br> Please contact Joan Luke at
-	<a href="mailto:jluke@suffolk.edu">jluke@suffolk.edu</a>
-	</p>
-
-
-<div class="footer">
-	<a href="https://suffolklitlab.org/"><img src="../images/blue_logo.png" width="50px" align="left" border="0"/></a>
-
-Suffolk Law Clinical Program, 120 Tremont St., Boston, MA 02108<br/><br/>
-Hosted by the Suffolk University Law School's <br/><a href="https://www.suffolk.edu/law/clinics">Clinical Programs</a>, <a href="https://sites.suffolk.edu/legaltech/">LIT Institute</a>, and <a href="https://suffolklitlab.org/">LIT Lab</a>.
-
-<br/><br/><a href="mailto:jluke@suffolk.edu">Contact</a>
-| <a href="https://suffolklitlab.org/terms/">Terms &amp; Privacy</a>
-</div>
 </body>
