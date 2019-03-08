@@ -35,7 +35,7 @@ body{
 </style>
 <div id="icon"></div>
 <h2 align=center>This Is Not A Chatbot</h2>
-<p>It's an interactive flowchart to help decide if you should attend LITCon2019. Plus we used a free tool to make it, and it only took ~20 minutes to learn. Ain't tech grand?</p>
+<p>It's an interactive flowchart to help decide if you should attend <a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. Plus we used a free tool to make it, and it only took ~20 minutes to learn. Ain't tech grand?</p>
 
 Q(1): Are you available on April 8th, 2019?
 A: Yes
