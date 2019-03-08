@@ -44,45 +44,88 @@
 	<meta name="twitter:description" content="Join Suffolk University's Law Clinical Programs and the Legal Innovation and Technology (LIT) Concentration for our annual LIT conference.">
 	<meta name="twitter:image" content="http://www.davidcolarusso.com/images/socmedia_header_accommodations.png"/>
 
+	<style>
+	.main_content {
+		position:absolute;
+		z-index:1;
+		left:0px;
+		right:0px;
+		top:0;
+		bottom:0;
+	}
+	.showme_content {
+		position:absolute;
+		z-index:100;
+		right:0;
+		width:115px;
+		bottom:0;
+		height:43px;
+		background:#002e5d;
+		text-align:center;
+		color:white;
+		font-size:12px;
+		font-family:arial;
+		line-height:40px;
+		border-top-left-radius: 15px;
+	}
+	.hideme_content {
+		display:none;
+		position:absolute;
+		z-index:2;
+		right:0;
+		width:375px;
+		top:0;
+		height:40px;
+		background:#002e5d;
+		text-align:center;
+		color:white;
+		font-size:12px;
+		font-family:arial;
+		line-height:40px;
+	}
+	.bot_content {
+		display:none;
+		position:absolute;
+		z-index:2;
+		right:0;
+		width:375px;
+		top:40;
+		bottom:0;
+	}
+
+	@media only screen and (max-width: 750px) {
+		.hideme_content {
+			float:left;
+			width:100%;
+		}
+		.bot_content {
+			float:left;
+			right:0;
+			width:100%;
+		}
+		.main_content {
+			float:left;
+			width:100%;
+		}
+
+	}
+	</style>
+
 </head>
-<body onLoad="msg();">
-<div class="header">
-<div class="logo">
-<a href="http://www.suffolk.edu/law/"><div class="seal">&nbsp;</div></a>
-<a href="../../"><img src="../images/cursor.gif" border="0" width="275px" height="200px"/></a>
-</div>
-</div>
-<div class="menu_bar">
-	<a href="../about" class="menu">About</a>
-	<a href="../agenda" class="menu">Agenda</a>
-	<a href="../speakers" class="menu">Speakers</a>
-	<a href="../litbits" class="menu">LIT&nbsp;Bits</a>
-	<a href="../hack" class="menu">Weekend&nbsp;Hack</a>
-	<a href="../accommodations" class="menu">Accommodations</a>
-	<a href="https://suffolklitlab.slack.com/messages/CGAGZ17FB/" class="menu" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'Open Slack');">Slack</a>
-	<a href="https://twitter.com/search?f=tweets&q=%23LITCon2019" class="menu" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'LITCon2019');">#LITCon2019</a>
-	<a href="https://suffolklitlab.org/events/#past" class="menu" target="_blank">Past</a>
-</div>
-<div class="content">
+<body>
+	<div id="hideme" class="hideme_content">
+	<a href="javascript:void('');" onClick="$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px'});" style="color:white">HIDE "BOT"</a>
+	</div>
+	<div id="qna" class="bot_content">
+		<iframe width="100%" height="100%" frameBorder="0" src="https://www.qnamarkup.net/i/?source=https://suffolklitlab.org/LITCon/2019/about/QnA_markup.txt"></iframe>
+	</div>
 
-	<p id="msg" style="display:none;background:#ffe;padding:15px;border: solid 1px #888;margin-top:5px;text-align:center;"></p>
+	<div id="show" class="showme_content">
+	<a href="javascript:void('');" onClick="$('#show').hide();$('#hideme').show();$('#qna').show();$('#page').css({'right':'375px'});" style="color:white">SHOW "BOT"</a>
+	</div>
 
-<h1>Accommodations</h1>
-<p>Please consult the following links from Suffolk University:</p>
-<ul>
-	<li><a href="https://www.suffolk.edu/visit/campus-map-directions/area-hotels">Area Hotels</a></li>
-	<li><a href="https://www.suffolk.edu/visit/campus-map-directions/area-parking-facilities">Area Parking Facilities</a></li>
-	<li><a href="https://www.suffolk.edu/visit/campus-map-directions/directions">How to Get Here</a></li>
-</ul>
-
-<div class="footer">
-	<a href="https://suffolklitlab.org/"><img src="../images/blue_logo.png" width="50px" align="left" border="0"/></a>
-
-Suffolk Law Clinical Program, 120 Tremont St., Boston, MA 02108<br/><br/>
-Hosted by the Suffolk University Law School's <br/><a href="https
-://www.suffolk.edu/law/clinics">Clinical Programs</a>, <a href="https://sites.suffolk.edu/legaltech/">LIT Institute</a>, and <a href="https://suffolklitlab.org/">LIT Lab</a>.
-
-<br/><br/><a href="mailto:jluke@suffolk.edu">Contact</a>
-| <a href="https://suffolklitlab.org/terms/">Terms &amp; Privacy</a>
-</div>
+	<div id="page" class="main_content">
+	<iframe height="100%" width="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/accommodations/accommodations.html"></iframe>
+	</div>
 </body>
+</html>
