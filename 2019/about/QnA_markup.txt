@@ -1,6 +1,6 @@
-Title:
-Author:
-Description:
+Title: LITCon2019 Not a Bot
+Author: <a href="https://twitter.com/SuffolkLITLab" target="_blank">Suffolk Legal Innovation & Technology Lab</a>
+Description: An interactive flowchart to help you decide if you should attend LITCon2019.
 Before: 
 <style>
 body{
@@ -32,51 +32,60 @@ body{
 	margin-top:10px;
 	padding-bottom:15px;
 }
+.profile_vid {
+	float:none;
+	position:relative;
+	margin: auto;
+}
+.embed_vid {
+	float:none;
+	width:100%;
+}
 </style>
 <div id="icon"></div>
 <h2 align=center>This Is Not A Chatbot</h2>
-<p>It's an interactive flowchart to help decide if you should attend <a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. Plus we used a free tool to make it, and it only took ~20 minutes to learn. Ain't tech grand?</p>
+<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for <a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. We used a free tool to make this "not a bot," and it only took about 20 minutes to learn. Isn't technology grand? Plus, there are Easter eggs. ;)</p>
 
 Q(1): Are you available on April 8th, 2019?
-A: Yes
+A: Yes.
 	Q(1.1):GOTO:available
-A: No
+A: No.
 	Q(1.2):GOTO:notavailable
-A: Did you mention a free tool?
+A: Did you say free tool?
 	Q(1.3):GOTO:free
 
 Q(available): Great. GOTO:convince
 
 Q(convince): Do you work in the legal sector?
-A: Yes
+A: Yes.
 	Q(3.1):GOTO:problems
-A: No
+A: No.
 	Q(3.2): Do you care about the justice system?
-	A: Yes
+	A: Yes.
 		Q(3.2.1):GOTO:problems
-	A: No
-		Q(3.2.2):<img src="https://media.giphy.com/media/o6KYXl09rnmOQ/giphy.gif"/><br><br> Okay... LITCon might not be for you. 
+	A: No.
+		Q(3.2.2):<img src="https://media.giphy.com/media/o6KYXl09rnmOQ/giphy.gif" style="width:280px;height:158px;"/><br><br> Okay... LITCon might not be for you. 
 		A: Can I have cat pictures now? 
 			Q(3.2.2.1):GOTO:cats1
 		A: Bye.
 			Q(3.2.2.2):GOTO:bye
 
 Q(problems): Are there things about the way you (or the justice system) work(s) that you think could use improvement? 
-A: Yes
+A: Yes.
 	Q(4.1): Cool, that's what we're all about, solving problems, and don't worry. It's not a <i>Legal Tech Conference</i>, it's a <i>Legal Innovation and Technology Conference</i>. It's not about shiny tools. It's about identifying problems and fixing things.<br><br>That being said, what's your comfort level with tech?
 	A: I can use Word/Wordperfect.
-		Q(4.1.1): <img src="https://media.giphy.com/media/1S3vm6ISM2gDu/giphy.gif"/> GOTO:everyone
+		Q(4.1.1): <img src="https://media.giphy.com/media/1S3vm6ISM2gDu/giphy.gif" style="width:132px;height:116px;"/> GOTO:everyone
 	A: Give me a command line.
-		Q(4.1.2): <img src="https://media.giphy.com/media/gPkWsM6X5xLVe/giphy.gif"/> 
+		Q(4.1.2): <img src="https://media.giphy.com/media/gPkWsM6X5xLVe/giphy.gif" style="width:280px;height:210px;"/> 
 		A: I'd love to play a game. 
-			Q(4.1.2.1):<img src="//jasoneppink.com/wp-content/gallery/the-reaction-gif-moving-image-as-gesture/kermit.gif"> GOTO:wargames
+			Q(4.1.2.1):<img src="//jasoneppink.com/wp-content/gallery/the-reaction-gif-moving-image-as-gesture/kermit.gif" style="width:280px;height:202px;"> GOTO:wargames
 		A: Let's learn more about LITCon. 
 			Q(4.1.2.2):GOTO:everyone
 	A: What's a command line?
-		Q(4.1.3): <img src="https://media.giphy.com/media/NRa7dRkMlVZRE5HUU4/giphy.gif"/> <br><br> It's that text interface you see computer folks using. Anyhow, it's not important. GOTO:everyone
+		Q(4.1.3): <img src="https://media.giphy.com/media/NRa7dRkMlVZRE5HUU4/giphy.gif" style="width:280px;height:158px;"/> <br><br> It's that text interface you see computer folks using. Anyhow, it's not important. GOTO:everyone
 
-A: No
-	Q(4.2): <img src="//www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif">GOTO:problems
+A: No.
+	Q(4.2): <img src="//www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:280px;height:210px;">GOTO:problems
 
 
 Q(everyone): LITCon's for everyone regardless of your comfort with tech. It's a single-day single-track conference, but there are free skills building sessions and a hackathon over the weekend. The conference will have speakers representing the full spectrum of legal tech endeavors, from DIY to hiring a company to do it for you.
@@ -86,31 +95,37 @@ A: Tell me more about hiring someone?
 	Q(hire): If you're not up to DIY, you can hire someone to build a solution for you or make use of an existing service. We'll hear from the people behind innovative work at <a href="http://www.theoryandprinciple.com/" traget="_blank">Theory and Principle</a>, <a href="https://www.joinpaladin.com/" traget="_blank">Paladin</a>, and <a href="https://community.lawyer/" traget="_blank">Community Lawyer</a>. GOTO:proud
 A: Tell me more about this weekend session. 
 	Q(weekend): You can learn more over at the <a href="https://suffolklitlab.org/LITCon/2019/hack/" target="_blank">weekend's webpage</a>, but the skills building sessions will include trainings on three open source tools for creating guided interviews and auto-generating documents—<a href="https://www.a2jauthor.org/" target="_blank">A2J Author</a>, <a href="https://docassemble.org/" target="_blank">Docassemble</a>, and <a href="https://www.qnamarkup.org/" target="_blank">QnA Markup</a>. <br><br>The hackathon portion of the weekend is in partnership with the <a href="http://dkmalone.com/2018/11/29/the-tubman-project/" target="_blank">Tubman Project</a> and will focus on creating tools for public defenders and their clients. GOTO:proud
+A: What does the conference cost?
+	Q(5.4):GOTO:whatcost
+A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] I'm convinced. Take me to registration. 
+	Q(5.5):GOTO:thanks
 
 Q(proud): Anyhow, we're really proud of all of the agenda and our speakers. Here's <a href="https://suffolklitlab.org/LITCon/2019/speakers/">a list</a>. That being said, <a href="https://suffolklitlab.org/LITCon/2019/speakers/#rickard" target="_blank">Erika Rickard</a> from Pew is our keynote speaker, and she'll be talking about modernizing the civil legal system. <br><br> Are you convinced? 
 A: I need more convincing. 
 	Q(moreconv): We also have these really great rapid-fire talks. Do you want to see last year's?
 	A: Yes.
-		Q(6.1.1): You can find them on the <a href="https://suffolklitlab.org/litbits/" target="_blank">LIT Bits section</a> of the Lab's page. GOTO:evenmore
+		Q(6.1.1): You can find a collection of them on the <a href="https://suffolklitlab.org/litbits/" target="_blank">LIT Bits section</a> of the Lab's page. GOTO:evenmore
 	A: No.
 		Q(evenmore): Did I mention that we'll be showing off work from our students?
 		A: Yes.
-			Q(6.1.2.1): <img src="https://media.giphy.com/media/sBl8Fowq0ErFC/giphy.gif"/><br><br> I'm pretty sure I didn't. Would you like to see a sample?
+			Q(6.1.2.1): <img src="https://media.giphy.com/media/sBl8Fowq0ErFC/giphy.gif" style="width:280px;height:210px;"/><br><br> I'm pretty sure I didn't. Would you like to see a sample?
 			A: Yes.
 				Q(6.1.2.1.1):GOTO:students
 			A: No.
 				Q(6.1.2.1.2):GOTO:network
 		A: No.
-			Q(students): Here's some work from last year. <br><br><iframe class="emb" src="https://www.youtube.com/embed/qbPf9VRP6eU?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-			A: I need more convincing.
-				Q(6.1.2.2.1):GOTO:network 
-			A: What does the conference cost?
-				Q(6.1.2.2.2):GOTO:whatcost
-			A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration. 
-				Q(6.1.2.2.3):GOTO:thanks
+			Q(6.1.2.2): Would you like to see a sample?
+			A: Yes.
+				Q(students): Here's some work from last year. FYI, you'll probably want to maximize the video to catch the details. <br><br><div class="profile_vid"><iframe class="embed_vid" src="https://www.youtube.com/embed/qbPf9VRP6eU?rel=0" gesture="media" allow="encrypted-media" allowfullscreen="" frameborder="0"></iframe></div> <br><br> So?
+				A: I need more convincing.
+					Q(6.1.2.2.1.1):GOTO:network 
+				A: What does the conference cost?
+					Q(6.1.2.2.1.2):GOTO:whatcost
+			A: No. 
+				Q(6.1.2.2.2):GOTO:network
 
 A: What does the conference cost?
-	Q(whatcost): A measly $25, and that includes a continental breakfast, hot lunch, and cocktails. <br><br><img src="https://media.giphy.com/media/5IMcyqKbkg0O4/giphy.gif"/>
+	Q(whatcost): A measly $25, and that includes a continental breakfast, hot lunch, and cocktails. <br><br><img src="https://media.giphy.com/media/5IMcyqKbkg0O4/giphy.gif" style="width:280px;height:135px;"/>
 	A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration. 
 		Q(6.2.1):GOTO:thanks
 	A: What if that's too much?
@@ -144,16 +159,16 @@ A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration.
 
 Q(free): Yes. It's an open source tool called <a href="https://www.qnamarkup.org" target="_blank">QnA Markup</a>, and it's actually one of three open source tools we'll be teaching at our free <a href="https://suffolklitlab.org/LITCon/2019/hack/" target="_blank">skills building session</a> the weekend before the conference. Would you like to see a 10 min primer?
 A: Sure
-	Q(8.1):FYI, you'll probably want to maximize the video to catch the details. <br><br><iframe class="emb" src="https://www.youtube.com/embed/RVhzQ1JVi3s?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+	Q(8.1):FYI, you'll probably want to maximize the video to catch the details. <br><br><div class="profile_vid"><iframe class="embed_vid" src="https://www.youtube.com/embed/RVhzQ1JVi3s?rel=0" gesture="media" allow="encrypted-media" allowfullscreen="" frameborder="0"></iframe></div>
 	<br><br>Do you want more?
-	A: Yes
+	A: Yes.
 		Q(8.1.1):GOTO:whatabout
-	A: No
+	A: No.
 		Q(8.1.2):GOTO:whatabout
 A: No thanks
 	Q(8.2):GOTO:whatabout
 A: Why would I use something like this?
-	Q(8.3): <img src="https://media.giphy.com/media/3o6ozovtBb4wLpIVZ6/giphy.gif"/> <br><br>I don't know; lots of reason. You could help direct folks to resources based on their answers or collect info to automate documents... GOTO:whatabout
+	Q(8.3): I don't know; lots of reason. You could help direct folks to resources based on their answers or collect info to automate documents... <br><br> <img src="https://media.giphy.com/media/3o6ozovtBb4wLpIVZ6/giphy.gif" style="width:280px;height:157px;"/> GOTO:whatabout
 
 Q(whatabout): Well, if you're interested in attending some free sessions on learning how to use QnA along with <a href="https://docassemble.org/" target="_blank">Docassemble</a> and <a href="https://www.a2jauthor.org/" target="_blank">A2J Author</a>, we'll be offering some on April 6th @ noon. <br><br>
 Back to LITCon proper. Are you available on April 8th?
@@ -162,9 +177,9 @@ A: Yes
 A: No
 	Q(9.2):GOTO:notavailable
 
-Q(notavailable): <img src="https://media.giphy.com/media/33iqmp5ATXT5m/giphy.gif"/><br><br> Too bad. Is that a hard no or an "I need convincing" no?  
+Q(notavailable): <img src="https://media.giphy.com/media/33iqmp5ATXT5m/giphy.gif" style="width:280px;height:119px;"/><br><br> Too bad. Is that a hard no or an "I need convincing" no?  
 A: A hard no
-	Q(nexttime): Maybe next time. Please keep March 30, 2020 open. That's when we'll be having LITCon2020.<br><br><img src="https://suffolklitlab.org/LITCon/2019/images/LIT_Con_2020_square_logo.png"/>
+	Q(nexttime): Maybe next time. Please keep March 30, 2020 open. That's when we'll be having LITCon2020.<br><br><img src="https://suffolklitlab.org/LITCon/2019/images/LIT_Con_2020_square_logo.png" style="width:280px;height:280px;"/>
 	A: Can I have cat pictures now? 
 		Q(10.1.1):GOTO:cats1
 	A: Bye
@@ -173,84 +188,84 @@ A: A hard no
 A: Convinced me
 	Q(10.2):GOTO:convince
 
-Q(thanks): <img src="https://media.giphy.com/media/FpZvxELO5xE8QcFdoc/giphy.gif"/> <br><br>We look forward to seeing you on the 8th. Please tell your friends. 
+Q(thanks): <img src="https://media.giphy.com/media/FpZvxELO5xE8QcFdoc/giphy.gif" style="width:280px;height:157px;"/> <br><br>We look forward to seeing you on the 8th. Please tell your friends. 
 A: Can I have cat pictures now? 
 	Q(11.1):GOTO:cats1
 A: Bye.
 	Q(11.2):GOTO:bye
 
 
-Q(cats1): <img src="https://media.giphy.com/media/Ov5NiLVXT8JEc/giphy.gif"/>
+Q(cats1): <img src="https://media.giphy.com/media/Ov5NiLVXT8JEc/giphy.gif" style="width:280px;height:157px;"/>
 <br><br> Do you need more?
 A: Yes
 	Q(12.1):GOTO:cats2
 A: No 
 	Q(12.2):Bye then. GOTO:bye
 
-Q(cats2): <img src="https://media.giphy.com/media/gl8ymnpv4Sqha/giphy.gif"/>
+Q(cats2): <img src="https://media.giphy.com/media/gl8ymnpv4Sqha/giphy.gif" style="width:280px;height:235px;"/>
 <br><br> Do you need more?
 A: Yes
 	Q(13.1):GOTO:cats3
 A: No 
 	Q(13.2):Bye then. GOTO:bye
 
-Q(cats3): <img src="https://media.giphy.com/media/kvrvnB158J4fm/giphy.gif"/> 
+Q(cats3): <img src="https://media.giphy.com/media/kvrvnB158J4fm/giphy.gif" style="width:280px;height:180px;"/> 
 <br><br> Do you need more?
 A: Yes
 	Q(14.1):GOTO:cats4
 A: No 
 	Q(14.2):Bye then. GOTO:bye
 
-Q(cats4): <img src="https://media.giphy.com/media/xBAreNGk5DapO/giphy.gif"/> 
+Q(cats4): <img src="https://media.giphy.com/media/xBAreNGk5DapO/giphy.gif" style="width:280px;height:188px;"/> 
 <br><br> Do you need more?
 A: Yes
 	Q(15.1):GOTO:cats5
 A: No 
 	Q(15.2):Bye then. GOTO:bye
 
-Q(cats5): <img src="https://media.giphy.com/media/BLCHvwl9C5j1u/giphy.gif"/> 
+Q(cats5): <img src="https://media.giphy.com/media/BLCHvwl9C5j1u/giphy.gif" style="width:280px;height:280px;"/> 
 <br><br> Do you need more?
 A: Yes
 	Q(16.1):GOTO:cats6
 A: No 
 	Q(16.2):Bye then. GOTO:bye
 
-Q(cats6): <img src="https://media.giphy.com/media/10dU7AN7xsi1I4/giphy.gif"/>
+Q(cats6): <img src="https://media.giphy.com/media/10dU7AN7xsi1I4/giphy.gif" style="width:237px;height:330px;"/>
 <br><br> Do you need more?
 A: Yes
 	Q(17.1):GOTO:cats7
 A: No 
 	Q(17.2):Bye then. GOTO:bye
 
-Q(cats7): <img src="https://media.giphy.com/media/hPyONzUYJhLZS/giphy.gif"/> 
+Q(cats7): <img src="https://media.giphy.com/media/hPyONzUYJhLZS/giphy.gif" style="width:280px;height:236px;"/> 
 <br><br> Do you need more?
 A: Yes
 	Q(18.1):GOTO:cats8
 A: No 
 	Q(18.2):Bye then. GOTO:bye
 
-Q(cats8): <img src="https://media.giphy.com/media/Endx3eMpqmpZ6/giphy.gif"/> <br><br> I know, those are puppies, but they're sooo cute. 
+Q(cats8): <img src="https://media.giphy.com/media/Endx3eMpqmpZ6/giphy.gif" style="width:280px;height:171px;"/> <br><br> I know, those are puppies, but they're sooo cute. 
 <br><br> Do you need more?
 A: Yes
 	Q(19.1):GOTO:cats9
 A: No 
 	Q(19.2):Bye then. GOTO:bye
 
-Q(cats9): <img src="https://media.giphy.com/media/5scVaYq4hKA7u/giphy.gif"/>
+Q(cats9): <img src="https://media.giphy.com/media/5scVaYq4hKA7u/giphy.gif" style="width:280px;height:157px;"/>
 <br><br> Do you need more?
 A: Yes
 	Q(20.1):GOTO:cats10
 A: No 
 	Q(20.2):Bye then. GOTO:bye
 
-Q(cats10): <img src="https://media.giphy.com/media/t7MWRoExDRF72/giphy.gif"/>
+Q(cats10): <img src="https://media.giphy.com/media/t7MWRoExDRF72/giphy.gif" style="width:280px;height:249px;"/>
 <br><br> Do you need more?
 A: Yes
 	Q(21.1):GOTO:cats1
 A: No 
 	Q(21.2):Bye then. GOTO:bye
 
-Q(bye): <img src="https://media.giphy.com/media/3oxHQi7H2L27ilG1Da/giphy.gif"/>
+Q(bye): <img src="https://media.giphy.com/media/3oxHQi7H2L27ilG1Da/giphy.gif" style="width:280px;height:280px;"/>
 
 
 
@@ -258,9 +273,9 @@ Q(wargames): How about a game of chess?
 A: Sounds good. I love chess.
 	Q(23.1): Your move (works best on a desktop). <br><br><iframe src="https://www.qnamarkup.org/templates/chess/" scrolling="no" seamless="seamless" style="overflow:hidden;width:260px;height:260px;border: solid 0px #eee;"></iframe> <br><br> Anywho, back to the conference... GOTO:everyone
 A: How about thermonuclear war?
-	Q(23.2): <img src="//i.imgur.com/WwpALFZ.gif"><br><br>The only way to win is not to play! Have you actually seen <a href="//en.wikipedia.org/wiki/WarGames" target=_blank>War Games</a>?
+	Q(23.2): <img src="//i.imgur.com/WwpALFZ.gif" style="width:280px;height:158px;"><br><br>The only way to win is not to play! Have you actually seen <a href="//en.wikipedia.org/wiki/WarGames" target=_blank>War Games</a>?
 	A: Yes.
-		Q(23.2.1): <img src="//www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif"><br><br>Let's try again. GOTO:wargames
+		Q(23.2.1): <img src="//www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:280px;height:210px;"><br><br>Let's try again. GOTO:wargames
 	A: No.
-		Q(23.2.2): My apologies. Let me just say, thermonuclear war is the wrong answer. <br><br><img src ="//i.giphy.com/uSHMDTUL7lKso.gif"> GOTO:wargames
+		Q(23.2.2): My apologies. Let me just say, thermonuclear war is the wrong answer. <br><br><img src ="//i.giphy.com/uSHMDTUL7lKso.gif" style="width:280px;height:141px;"> GOTO:wargames
 
