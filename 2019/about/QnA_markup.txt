@@ -78,7 +78,7 @@ A: Yes.
 	A: Give me a command line.
 		Q(4.1.2): <img src="https://media.giphy.com/media/gPkWsM6X5xLVe/giphy.gif" style="width:232px;height:210px;"/> 
 		A: I'd love to play a game. 
-			Q(4.1.2.1):<img src="//jasoneppink.com/wp-content/gallery/the-reaction-gif-moving-image-as-gesture/kermit.gif" style="width:232px;height:202px;"> GOTO:wargames
+			Q(4.1.2.1):<img src="//jasoneppink.com/wp-content/gallery/the-reaction-gif-moving-image-as-gesture/kermit.gif" style="width:232px;height:167px;"> GOTO:wargames
 		A: Let's learn more about LITCon. 
 			Q(4.1.2.2):GOTO:everyone
 	A: What's a command line?
