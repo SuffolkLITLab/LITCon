@@ -1,4 +1,4 @@
-Title: LITCon2019 Not a Bot
+Title: LITCon2019 Not-A-Bot
 Author: <a href="https://twitter.com/SuffolkLITLab" target="_blank">Suffolk Legal Innovation & Technology Lab</a>
 Description: An interactive flowchart to help you decide if you should attend LITCon2019.
 Before: 
