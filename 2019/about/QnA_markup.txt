@@ -64,7 +64,7 @@ A: No.
 	A: Yes.
 		Q(3.2.1):GOTO:problems
 	A: No.
-		Q(notforyou):<img src="https://media.giphy.com/media/o6KYXl09rnmOQ/giphy.gif" style="width:232px;height:158px;"/><br><br> Okay... LITCon might not be for you. 
+		Q(notforyou):<img src="https://media.giphy.com/media/o6KYXl09rnmOQ/giphy.gif" style="width:232px;height:131px;"/><br><br> Okay... LITCon might not be for you. 
 		A: Can I have cat pictures now? 
 			Q(3.2.2.1):GOTO:cats1
 		A: Bye.
