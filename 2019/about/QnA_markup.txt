@@ -72,7 +72,7 @@ A: No.
 
 Q(problems): Are there things about the way you (or the justice system) work(s) that you think could use improvement? 
 A: Yes.
-	Q(goodnews): Good news, that's our jam. We're not about tech for tech's sake. We're a <i>legal <b>innovation</b> and technology conference</i>. We're about identifying issues and solving problems.<br><br>That being said, what's your comfort level with tech?
+	Q(goodnews): Good news, that's our jam. We're not about tech for tech's sake. We're a <i>legal <b>innovation</b> and technology (LIT) conference</i>. We're about identifying issues and solving problems.<br><br>That being said, what's your comfort level with tech?
 	A: I can use Word/Wordperfect.
 		Q(4.1.1): <img src="https://media.giphy.com/media/1S3vm6ISM2gDu/giphy.gif" style="width:132px;height:116px;"/> GOTO:everyone
 	A: Give me a command line.
