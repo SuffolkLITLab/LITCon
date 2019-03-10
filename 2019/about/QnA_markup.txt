@@ -44,7 +44,7 @@ body{
 </style>
 <div id="icon"></div>
 <h2 align=center>This Is Not A Chatbot</h2>
-<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for <a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. We used a free tool to make this "not a bot," that only takes about 20 minutes to learn. Isn't technology grand? Plus, there are Easter eggs. ;)</p>
+<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for our 2nd annual Legal Innovation and Technology (LIT) Conference—<a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. We used a free tool to make this "bot," and the tool only took about 20 minutes to learn. Isn't technology grand? Plus, there are Easter eggs. ;)</p>
 
 Q(1): Are you available on April 8th, 2019?
 A: Yes.
@@ -72,7 +72,7 @@ A: No.
 
 Q(problems): Are there things about the way you (or the justice system) work(s) that you think could use improvement? 
 A: Yes.
-	Q(goodnews): Good news, that's our jam. We're not about tech for tech's sake. We're a <i>legal <b>innovation</b> and technology (LIT) conference</i>. We're about identifying issues and solving problems.<br><br>That being said, what's your comfort level with tech?
+	Q(goodnews): Good news, that's our jam. We're not about tech for tech's sake. We're a <i>legal <b>innovation</b> and technology (LIT) conference</i>. We're about giving you tools to help you identify and solve problems.<br><br>That being said, what's your comfort level with tech?
 	A: I can use Word/Wordperfect.
 		Q(4.1.1): <img src="https://media.giphy.com/media/1S3vm6ISM2gDu/giphy.gif" style="width:132px;height:116px;"/> GOTO:everyone
 	A: Give me a command line.
@@ -82,7 +82,7 @@ A: Yes.
 		A: Let's learn more about LITCon. 
 			Q(4.1.2.2):GOTO:everyone
 	A: What's a command line?
-		Q(4.1.3): <img src="https://media.giphy.com/media/NRa7dRkMlVZRE5HUU4/giphy.gif" style="width:232px;height:158px;"/> <br><br> It's that text interface you see computer folks using. Anyhow, it's not important. GOTO:everyone
+		Q(4.1.3): <img src="https://media.giphy.com/media/NRa7dRkMlVZRE5HUU4/giphy.gif" style="width:232px;height:130px;"/> <br><br> It's that text interface you see computer folks using. Anyhow, it's not important. GOTO:everyone
 
 A: No.
 	Q(4.2): <img src="//www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:232px;height:174px;">GOTO:mproblems
@@ -116,15 +116,15 @@ A: Tell me more about DIY.
 A: Tell me more about hiring someone?
 	Q(hire): If DIY is not for you, you can hire someone to build a custom solution or make use of an existing service. We'll hear from the people behind innovative work at <a href="http://www.theoryandprinciple.com/" target="_blank">Theory and Principle</a> (a company building custom legal tech), <a href="https://www.joinpaladin.com/" target="_blank">Paladin</a> (a tech service matching attorneys with pro bono work), and <a href="https://community.lawyer/" target="_blank">Community Lawyer</a> (a platform that helps you build legal apps without "coding"). GOTO:proud
 A: Tell me more about these weekend sessions. 
-	Q(weekend): You can learn more over at the <a href="https://suffolklitlab.org/LITCon/2019/hack/" target="_blank">weekend's webpage</a>, but the skills building sessions will include trainings on three open source tools for creating guided interviews and auto-generating documents—<a href="https://www.a2jauthor.org/" target="_blank">A2J Author</a>, <a href="https://docassemble.org/" target="_blank">Docassemble</a>, and <a href="https://www.qnamarkup.org/" target="_blank">QnA Markup</a>. <br><br>The hackathon portion of the weekend is in partnership with the <a href="http://dkmalone.com/2018/11/29/the-tubman-project/" target="_blank">Tubman Project</a> and will focus on creating tools for public defenders and their clients. GOTO:proud
+	Q(weekend): You can learn more over the <a href="https://suffolklitlab.org/LITCon/2019/hack/" target="_blank">event's website</a>, but the skills building sessions will include trainings on three open source tools for creating guided interviews and auto-generating documents—<a href="https://www.a2jauthor.org/" target="_blank">A2J Author</a>, <a href="https://docassemble.org/" target="_blank">Docassemble</a>, and <a href="https://www.qnamarkup.org/" target="_blank">QnA Markup</a>. <br><br>The hackathon portion of the weekend is in partnership with the <a href="http://dkmalone.com/2018/11/29/the-tubman-project/" target="_blank">Tubman Project</a> and will focus on creating tools for public defenders and their clients. GOTO:proud
 
-Q(proud): Anyhow, we're really proud of the agenda and our speakers. Here's <a href="https://suffolklitlab.org/LITCon/2019/speakers/">a list</a>. That being said, <a href="https://suffolklitlab.org/LITCon/2019/speakers/#rickard" target="_blank">Erika Rickard</a> from Pew is our keynote speaker, and she'll be talking about modernizing the civil legal system. <br><br> Are you convinced? 
+Q(proud): Anyhow, we're really proud of the agenda and our speakers. Here's <a href="https://suffolklitlab.org/LITCon/2019/speakers/" target="_blank">a list</a>. That being said, <a href="https://suffolklitlab.org/LITCon/2019/speakers/#rickard" target="_blank">Erika Rickard</a> from Pew is our keynote speaker, and she'll be talking about modernizing the civil legal system. <br><br> Are you convinced? 
 A: I need more convincing. 
 	Q(moreconv): We also have these really great rapid-fire talks. Do you want to see last year's?
 	A: Yes.
 		Q(9.1.1): You can find a collection of them on the <a href="https://suffolklitlab.org/litbits/" target="_blank">LIT Bits section</a> of the Lab's page. GOTO:evenmore
 	A: No.
-		Q(evenmore): Did I mention that we'll be showing off work from our students?
+		Q(evenmore): Did I mention that we'll be showing off some student work too?
 		A: Yes.
 			Q(9.1.2.1): <img src="https://media.giphy.com/media/sBl8Fowq0ErFC/giphy.gif" style="width:232px;height:174px;"/><br><br> I'm pretty sure I didn't. Would you like to see a sample?
 			A: Yes.
@@ -171,10 +171,12 @@ A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Sure, take me to registrat
 
 
 Q(network): Did you know LITCon is a great networking event, bringing together clinicians, legal services providers, educators, legal tech leaders, law students, and the like? It's not a complete list, but here are some <a href="https://twitter.com/SuffolkLITLab/lists/litcon2019" target="_blank">folks on Twitter</a> that are coming, and just look at that <a href="https://suffolklitlab.org/LITCon/2019/speakers/" target="_blank">speakers list</a>. 
+A: That's nice, but...
+	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:px;"/><br><br> We built this whole "bot" with free tools as a meta commentary on the state of legal tech to make clear that we "get it." Plus, do you know how much the conference costs?GOTO:whatcost
 A: What does the conference cost?
-	Q(10.1):GOTO:whatcost
+	Q(10.2):GOTO:whatcost
 A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration. 
-	Q(10.2):GOTO:thanks
+	Q(10.3):GOTO:thanks
 
 
 Q(free): Yes. It's an open source tool called <a href="https://www.qnamarkup.org" target="_blank">QnA Markup</a>, and it's actually one of three open source tools we'll be teaching at our free <a href="https://suffolklitlab.org/LITCon/2019/hack/" target="_blank">skills building session</a> the weekend before the conference. Would you like to see a 10 min primer?
@@ -250,7 +252,7 @@ A: Yes
 A: No 
 	Q(19.2):Bye then. GOTO:bye
 
-Q(cats6): <img src="https://media.giphy.com/media/10dU7AN7xsi1I4/giphy.gif" style="width:232px;height:274px;"/>
+Q(cats6): <img src="https://media.giphy.com/media/10dU7AN7xsi1I4/giphy.gif" style="width:232px;height:323px;"/>
 <br><br> Do you need more?
 A: Yes
 	Q(20.1):GOTO:cats7
