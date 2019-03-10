@@ -72,7 +72,7 @@ A: No.
 
 Q(problems): Are there things about the way you (or the justice system) work(s) that you think could use improvement? 
 A: Yes.
-	Q(goodnews): Good news, we're not a traditional <i>legal tech conference</i>. We're a <i>legal <b>innovation</b> and technology conference</i>. We're not just about tech for tech's sake. We're about identifying issues and solving problems.<br><br>That being said, what's your comfort level with tech?
+	Q(goodnews): Good news, that's our jam. We're not about tech for tech's sake. We're not a traditional <i>legal tech conference</i>. We're a <i>legal <b>innovation</b> and technology conference</i>. We're about identifying issues and solving problems.<br><br>That being said, what's your comfort level with tech?
 	A: I can use Word/Wordperfect.
 		Q(4.1.1): <img src="https://media.giphy.com/media/1S3vm6ISM2gDu/giphy.gif" style="width:132px;height:116px;"/> GOTO:everyone
 	A: Give me a command line.
@@ -88,7 +88,7 @@ A: No.
 	Q(4.2): <img src="//www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:232px;height:174px;">GOTO:mproblems
 
 
-Q(mproblems): <i>Are there things about the way you (or the justice system) work(s) that you think could use improvement?</i> 
+Q(mproblems): Are there things about the way you (or the justice system) work(s) that you think could use improvement?
 A: Yes.
 	Q(5.1):GOTO:goodnews
 A: No.
@@ -96,14 +96,14 @@ A: No.
 
 
 
-Q(mmproblems): <i><b>Are there things about the way you (or the justice system) work(s) that you think could use improvement?</b></i>
+Q(mmproblems): <i>Are there things about the way you (or the justice system) work(s) that you think could use improvement?</i> 
 A: Yes.
 	Q(6.1):GOTO:goodnews
 A: No.
 	Q(6.2): <img src="https://media.giphy.com/media/12FfNKPlSR5k2c/giphy.gif" style="width:232px;height:193px;">GOTO:mmmproblems
 
 
-Q(mmmproblems): <b>ARE THERE THINGS ABOUT THE WAY YOU (OR THE JUSTICE SYSTEM) WORK(S) THAT YOU THINK COULD USE IMPROVEMENT!?</b>
+Q(mmmproblems): <i><b>Are there things about the way you (or the justice system) work(s) that you think could use improvement?</b></i>
 A: Yes.
 	Q(7.1):GOTO:goodnews
 A: No.
@@ -121,7 +121,7 @@ A: Tell me more about these weekend sessions.
 Q(proud): Anyhow, we're really proud of the agenda and our speakers. Here's <a href="https://suffolklitlab.org/LITCon/2019/speakers/">a list</a>. That being said, <a href="https://suffolklitlab.org/LITCon/2019/speakers/#rickard" target="_blank">Erika Rickard</a> from Pew is our keynote speaker, and she'll be talking about modernizing the civil legal system. <br><br> Are you convinced? 
 A: I need more convincing. 
 	Q(moreconv): We also have these really great rapid-fire talks. Do you want to see last year's?
-	A: Yes.fy
+	A: Yes.
 		Q(9.1.1): You can find a collection of them on the <a href="https://suffolklitlab.org/litbits/" target="_blank">LIT Bits section</a> of the Lab's page. GOTO:evenmore
 	A: No.
 		Q(evenmore): Did I mention that we'll be showing off work from our students?
@@ -134,7 +134,7 @@ A: I need more convincing.
 		A: No.
 			Q(9.1.2.2): Would you like to see a sample?
 			A: Yes.
-				Q(students): Here's some work from last year. <div class="profile_vid"><iframe class="embed_vid" src="https://www.youtube.com/embed/qbPf9VRP6eU?rel=0" gesture="media" allow="encrypted-media" allowfullscreen="" frameborder="0"></iframe></div> <br><br> So?
+				Q(students): Here's some work from last year. <br><br> <div class="profile_vid"><iframe class="embed_vid" src="https://www.youtube.com/embed/qbPf9VRP6eU?rel=0" gesture="media" allow="encrypted-media" allowfullscreen="" frameborder="0"></iframe></div> <br><br> So?
 				A: I need more convincing.
 					Q(9.1.2.2.1.1):GOTO:network 
 				A: What does the conference cost?
