@@ -44,7 +44,7 @@ body{
 </style>
 <div id="icon"></div>
 <h2 align=center>This Is Not A Chatbot</h2>
-<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for our 2nd annual Legal Innovation and Technology (LIT) Conference—<a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. We used a free tool to make this "bot," and the tool only took about 20 minutes to learn. Isn't technology grand? Plus, there are Easter eggs. ;)</p>
+<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for our 2<sup>nd</sup> annual Legal Innovation and Technology (LIT) Conference—<a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. Plus, we used a free tool to make this "bot." You could learn to make one in about 20 minutes. Isn't technology grand? Also, there are Easter eggs. ;)</p>
 
 Q(1): Are you available on April 8th, 2019?
 A: Yes.
@@ -171,8 +171,8 @@ A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Sure, take me to registrat
 
 
 Q(network): Did you know LITCon is a great networking event, bringing together clinicians, legal services providers, educators, legal tech leaders, law students, and the like? It's not a complete list, but here are some <a href="https://twitter.com/SuffolkLITLab/lists/litcon2019" target="_blank">folks on Twitter</a> that are coming, and just look at that <a href="https://suffolklitlab.org/LITCon/2019/speakers/" target="_blank">speakers list</a>. 
-A: That's nice, but...
-	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:px;"/><br><br> We built this whole "bot" as a meta commentary on the state of legal tech to make it clear that we "get it." That should count for something. Plus, do you know how much the conference costs?GOTO:whatcost
+A: Just a little more convincing.
+	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:px;"/><br><br> We built this "bot" as a meta commentary on the state of legal tech to make it clear that we "get it." That should count for something. Plus, do you know how much the conference costs? GOTO:whatcost
 A: What does the conference cost?
 	Q(10.2):GOTO:whatcost
 A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration. 
