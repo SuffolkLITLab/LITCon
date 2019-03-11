@@ -44,7 +44,7 @@ body{
 </style>
 <div id="icon"></div>
 <h2 align=center>This Is Not A Chatbot</h2>
-<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for our 2<sup>nd</sup> annual Legal Innovation and Technology (LIT) Conference—<a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. Plus, we used a free tool to make this "bot." You could learn to make one in about 20 minutes. Isn't technology grand? Also, there are Easter eggs. ;)</p>
+<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for our 2<sup>nd</sup> annual legal innovation and technology (LIT) conference—<a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. ProTip: We used a free tool to make this "bot," and it only takes about 20 minutes to learn. Isn't technology grand? Also, there are Easter eggs. ;)</p>
 
 Q(1): Are you available on April 8th, 2019?
 A: Yes.
@@ -72,7 +72,7 @@ A: No.
 
 Q(problems): Are there things about the way you (or the justice system) work(s) that you think could use improvement? 
 A: Yes.
-	Q(goodnews): Good news, that's our jam. We're not about tech for tech's sake. We're a <i>legal <b>innovation</b> and technology (LIT) conference</i>. We're about giving you tools to help you identify and solve problems.<br><br>That being said, what's your comfort level with tech?
+	Q(goodnews): That's our jam! We're all about identifying and solving problems, not tech for tech's sake. After all, we're a <i>legal <b>innovation</b> and technology (LIT) conference</i>, not a legal tech conference. <br><br>That being said, what's your comfort level with tech?
 	A: I can use Word/Wordperfect.
 		Q(4.1.1): <img src="https://media.giphy.com/media/1S3vm6ISM2gDu/giphy.gif" style="width:132px;height:116px;"/> GOTO:everyone
 	A: Give me a command line.
@@ -110,7 +110,7 @@ A: No.
 	Q(7.2):GOTO:notforyou
 
 
-Q(everyone): LITCon's for everyone regardless of their comfort with tech. At it's core, it's a single-day single-track conference, but there are free skills building sessions and a hackathon over the weekend. The conference will feature speakers representing the full spectrum of legal tech endeavors, from DIY to hiring a company to do it for you, and everything in between.
+Q(everyone): LITCon's for everyone regardless of their comfort with tech. It's a single-day single-track conference, though there are free skills building sessions and a hackathon over the weekend. The conference will feature speakers representing the full spectrum of legal tech endeavors, from DIY to hiring a company to do it for you, and everything in between.
 A: Tell me more about DIY.
 	Q(doit): It's not for everyone, but there are folks who like to build their own solutions. For example, <a href="https://suffolklitlab.org/LITCon/2019/speakers/#steenhuis" target="_blank">Quinten Steenhuis</a>, an attorney from Greater Boston Legal Services, will be talking about <a href="https://www.nonprofittechy.com/2018/06/26/a-year-with-docassemble/" target="_blank">his work</a>. GOTO:proud
 A: Tell me more about hiring someone?
@@ -122,9 +122,9 @@ Q(proud): Anyhow, we're really proud of the agenda and our speakers. Here's <a h
 A: I need more convincing. 
 	Q(moreconv): We also have these really great rapid-fire talks. Do you want to see last year's?
 	A: Yes.
-		Q(9.1.1): You can find a collection of them on the <a href="https://suffolklitlab.org/litbits/" target="_blank">LIT Bits section</a> of the Lab's page. GOTO:evenmore
+		Q(9.1.1): You can find a collection of them on the Lab's <a href="https://suffolklitlab.org/litbits/" target="_blank">LIT Bits page</a>. GOTO:evenmore
 	A: No.
-		Q(evenmore): Did I mention that we'll be showing off some student work too?
+		Q(evenmore): Did I mention that we'll be showing off student work from both Suffolk's LIT Lab and Northeastern's NuLaw Lab?
 		A: Yes.
 			Q(9.1.2.1): <img src="https://media.giphy.com/media/sBl8Fowq0ErFC/giphy.gif" style="width:232px;height:174px;"/><br><br> I'm pretty sure I didn't. Would you like to see a sample?
 			A: Yes.
@@ -134,7 +134,7 @@ A: I need more convincing.
 		A: No.
 			Q(9.1.2.2): Would you like to see a sample?
 			A: Yes.
-				Q(students): Here's some work from last year. <br><br> <div class="profile_vid"><iframe class="embed_vid" src="https://www.youtube.com/embed/qbPf9VRP6eU?rel=0" gesture="media" allow="encrypted-media" allowfullscreen="" frameborder="0"></iframe></div> <br><br> So?
+				Q(students): This is from last year's conference. <br><br> <div class="profile_vid"><iframe class="embed_vid" src="https://www.youtube.com/embed/qbPf9VRP6eU?rel=0" gesture="media" allow="encrypted-media" allowfullscreen="" frameborder="0"></iframe></div> <br><br> So?
 				A: I need more convincing.
 					Q(9.1.2.2.1.1):GOTO:network 
 				A: What does the conference cost?
@@ -148,7 +148,7 @@ A: What does the conference cost?
 	Q(whatcost): A measly $25, and that includes a continental breakfast, hot lunch, and cocktails. <br><br><img src="https://media.giphy.com/media/5IMcyqKbkg0O4/giphy.gif" style="width:232px;height:128px;"/>
 	A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration. 
 		Q(9.2.1):GOTO:thanks
-	A: What if that's too much?
+	A: What if $25 is too much?
 		Q(9.2.2): Do you work in public interest? 
 		A: Yes.
 			Q(9.2.2.1): Email Joan Luke (<a href="mailto:jluke@suffolk.edu">jluke@suffolk.edu</a>) and ask for a pubic service waiver. GOTO:thanks
@@ -172,14 +172,14 @@ A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Sure, take me to registrat
 
 Q(network): Did you know LITCon is a great networking event, bringing together clinicians, legal services providers, educators, legal tech leaders, law students, and the like? It's not a complete list, but here are some <a href="https://twitter.com/SuffolkLITLab/lists/litcon2019" target="_blank">folks on Twitter</a> that are coming, and just look at that <a href="https://suffolklitlab.org/LITCon/2019/speakers/" target="_blank">speakers list</a>. 
 A: Just a little more convincing.
-	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:px;"/><br><br> We built this "bot" as a meta commentary on the state of legal tech to make it clear that we "get it." That should count for something. Plus, do you know how much the conference costs? GOTO:whatcost
+	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:px;"/><br><br> We built this "bot" as a commentary on the state of legal tech to make it clear that we "get it." That should count for something, right? I mean, "this is not a chatbot," come on? Tech can be a powerful tool but only when you're clear eyed about it's potential.<br><br> Plus, wait until you hear how much the conference costs... GOTO:whatcost
 A: What does the conference cost?
 	Q(10.2):GOTO:whatcost
 A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration. 
 	Q(10.3):GOTO:thanks
 
 
-Q(free): Yes. It's an open source tool called <a href="https://www.qnamarkup.org" target="_blank">QnA Markup</a>, and it's actually one of three open source tools we'll be teaching at our free <a href="https://suffolklitlab.org/LITCon/2019/hack/" target="_blank">skills building session</a> the weekend before the conference. Would you like to see a 10 min primer?
+Q(free): Yes. It's an open source tool called <a href="https://www.qnamarkup.org" target="_blank">QnA Markup</a>, and it's actually one of three open source tools we'll be teaching at our free <a href="https://suffolklitlab.org/LITCon/2019/hack/" target="_blank">skills building session</a> the weekend before the conference. Would you like to see a 10 min video primer?
 A: Sure.
 	Q(11.1):<div class="profile_vid"><iframe class="embed_vid" src="https://www.youtube.com/embed/RVhzQ1JVi3s?rel=0" gesture="media" allow="encrypted-media" allowfullscreen="" frameborder="0"></iframe></div>
 	<br><br>Do you want more?
@@ -190,7 +190,7 @@ A: Sure.
 A: No thanks.
 	Q(11.2):GOTO:whatabout
 A: Why would I use something like this?
-	Q(11.3): I don't know; lots of reason. You could help direct folks to resources based on their answers or collect info to automate documents... <br><br> <img src="https://media.giphy.com/media/3o6ozovtBb4wLpIVZ6/giphy.gif" style="width:232px;height:130px;"/> GOTO:whatabout
+	Q(11.3): I don't know, lots of reason. You could help direct folks to resources based on their answers or collect info to automate documents... <br><br> <img src="https://media.giphy.com/media/3o6ozovtBb4wLpIVZ6/giphy.gif" style="width:232px;height:130px;"/> GOTO:whatabout
 
 Q(whatabout): Well, if you're interested in attending some free sessions on learning how to use QnA along with <a href="https://docassemble.org/" target="_blank">Docassemble</a> and <a href="https://www.a2jauthor.org/" target="_blank">A2J Author</a>, we'll be offering some on April 6th @ noon. <br><br>
 Back to LITCon proper. Are you available on April 8th?
