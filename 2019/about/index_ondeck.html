@@ -48,7 +48,7 @@
 	<style>
 	.main_content {
 		position:absolute;
-		display: inline-block;
+		box-sizing: border-box;
 		border-right: solid 1px #000;
 		z-index:1;
 		left:0px;
@@ -58,8 +58,8 @@
 	}
 	.showme_content {
 		display:none;
+		box-sizing: border-box;
 		position:absolute;
-		display: inline-block;
 		z-index:100;
 		right:0;
 		width:115px;
@@ -75,7 +75,7 @@
 	}
 	.hideme_content {
 		position:absolute;
-		display: inline-block;
+		box-sizing: border-box;
 		border-left: solid 1px #000;
 		z-index:2;
 		right:0;
@@ -91,11 +91,11 @@
 	}
 	.bot_content {
 		position:absolute;
-		display: inline-block;
+		box-sizing: border-box;
 		border-left: solid 1px #000;
 		z-index:2;
 		right:0;
-		width:375px;
+		width:376px;
 		top:40;
 		bottom:0;
 	}
