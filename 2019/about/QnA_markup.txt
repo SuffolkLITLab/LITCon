@@ -46,7 +46,7 @@ body{
 <h2 align=center>This Is Not A Chatbot</h2>
 <p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for <a href="https://twitter.com/SuffolkLITLab" target="_blank">@SuffolkLITLab</a>'s 2<sup>nd</sup> annual legal innovation and technology (LIT) conference—<a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. ProTip: We used a free tool to make this "bot," and it only takes about 20 minutes to learn. Isn't technology grand? Also, there are Easter eggs. ;)</p>
 
-Q(1): Are you available on April 8th, 2019?
+Q(1): Can you make it to Boston on April 8th, 2019?
 A: Yes.
 	Q(1.1):GOTO:available
 A: No.
@@ -110,7 +110,7 @@ A: No.
 	Q(7.2):GOTO:notforyou
 
 
-Q(everyone): LITCon's for everyone regardless of their comfort with tech. It's a single-day single-track conference, though there are free skills building sessions and a hackathon over the weekend. The conference will feature speakers representing the full spectrum of legal tech endeavors, from DIY to hiring a company to do it for you, and everything in between.
+Q(everyone): LITCon's for everyone regardless of their comfort with tech. It's a single-day single-track conference though there are free skills building sessions and a hackathon over the weekend. The conference will feature speakers representing the full spectrum of legal tech endeavors, from DIY to hiring a company to do it for you, and everything in between.
 A: Tell me more about DIY.
 	Q(doit): It's not for everyone, but there are folks who like to build their own solutions. For example, <a href="https://suffolklitlab.org/LITCon/2019/speakers/#steenhuis" target="_blank">Quinten Steenhuis</a>, an attorney from Greater Boston Legal Services, will be talking about <a href="https://www.nonprofittechy.com/2018/06/26/a-year-with-docassemble/" target="_blank">his work</a>. GOTO:proud
 A: Tell me more about hiring someone?
@@ -193,7 +193,7 @@ A: Why would I use something like this?
 	Q(11.3): I don't know, lots of reason. You could help direct folks to resources based on their answers or collect info to automate documents... <br><br> <img src="https://media.giphy.com/media/3o6ozovtBb4wLpIVZ6/giphy.gif" style="width:232px;height:130px;"/> GOTO:whatabout
 
 Q(whatabout): Well, if you're interested in attending some free sessions on learning how to use QnA along with <a href="https://docassemble.org/" target="_blank">Docassemble</a> and <a href="https://www.a2jauthor.org/" target="_blank">A2J Author</a>, we'll be offering some on April 6th @ noon. <br><br>
-Back to LITCon proper. Are you available on April 8th?
+Back to LITCon proper. Can you make it to Boston on April 8th, 2019?
 A: Yes.
 	Q(12.1):GOTO:available
 A: No.
