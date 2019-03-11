@@ -1,4 +1,4 @@
-Title: LITCon2019 Not-A-Bot
+Title: LITCon2019's Not-A-Bot
 Author: <a href="https://twitter.com/SuffolkLITLab" target="_blank">Suffolk Legal Innovation & Technology Lab</a>
 Description: An interactive flowchart to help you decide if you should attend LITCon2019.
 Before: 
@@ -44,7 +44,7 @@ body{
 </style>
 <div id="icon"></div>
 <h2 align=center>This Is Not A Chatbot</h2>
-<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for our 2<sup>nd</sup> annual legal innovation and technology (LIT) conference—<a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. ProTip: We used a free tool to make this "bot," and it only takes about 20 minutes to learn. Isn't technology grand? Also, there are Easter eggs. ;)</p>
+<p>It's an interactive flowchart to help you decide if you should <a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" target="_blank"> register</a> for <a href="https://twitter.com/SuffolkLITLab" target="_blank">@SuffolkLITLab</a>'s 2<sup>nd</sup> annual legal innovation and technology (LIT) conference—<a href="https://suffolklitlab.org/LITCon/2019/about/about.html" target="_blank">LITCon2019</a>. ProTip: We used a free tool to make this "bot," and it only takes about 20 minutes to learn. Isn't technology grand? Also, there are Easter eggs. ;)</p>
 
 Q(1): Are you available on April 8th, 2019?
 A: Yes.
