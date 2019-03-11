@@ -72,7 +72,7 @@ A: No.
 
 Q(problems): Are there things about the way you (or the justice system) work(s) that you think could use improvement? 
 A: Yes.
-	Q(goodnews): That's our jam! We're all about identifying and solving problems, not tech for tech's sake. After all, we're a <i>legal <b>innovation</b> and technology (LIT) conference</i>, not a legal tech conference. <br><br>That being said, what's your comfort level with tech?
+	Q(goodnews): That's our jam! We're all about identifying and solving problems, not tech for tech's sake. After all, we're a <i>legal <b>innovation</b> and technology (LIT) conference</i>, not a some standard legal tech conference. <br><br>That being said, what's your comfort level with tech?
 	A: I can use Word/Wordperfect.
 		Q(4.1.1): <img src="https://media.giphy.com/media/1S3vm6ISM2gDu/giphy.gif" style="width:132px;height:116px;"/> GOTO:everyone
 	A: Give me a command line.
@@ -172,7 +172,7 @@ A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Sure, take me to registrat
 
 Q(network): Did you know LITCon is a great networking event, bringing together clinicians, legal services providers, educators, legal tech leaders, law students, and the like? It's not a complete list, but here are some <a href="https://twitter.com/SuffolkLITLab/lists/litcon2019" target="_blank">folks on Twitter</a> that are coming, and just look at that <a href="https://suffolklitlab.org/LITCon/2019/speakers/" target="_blank">speakers list</a>. 
 A: Just a little more convincing.
-	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:px;"/><br><br> We built this "bot" as a commentary on the state of legal tech to make it clear that we "get it." That should count for something, right? I mean, "this is not a chatbot," come on? Tech can be a powerful tool but only when you're clear eyed about it's potential.<br><br> Plus, wait until you hear how much the conference costs... GOTO:whatcost
+	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:px;"/><br><br> We built this "bot" as a commentary on the state of legal tech to make it clear that we "get it." That should count for something, right? I mean, "this is not a chatbot," come on? Tech can be a powerful tool but only when you're clear-eyed about it's potential.<br><br> Plus, wait until you hear how much the conference costs... GOTO:whatcost
 A: What does the conference cost?
 	Q(10.2):GOTO:whatcost
 A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration. 
@@ -300,4 +300,5 @@ A: How about thermonuclear war?
 		Q(26.2.1): <img src="https://www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:232px;height:174px;"><br><br>Let's try again. GOTO:wargames
 	A: No.
 		Q(26.2.2): My apologies. Let me just say, thermonuclear war is the wrong answer. <br><br><img src ="https://i.giphy.com/uSHMDTUL7lKso.gif" style="width:232px;height:117px;"> GOTO:wargames
-
+A: Actually, let's get back to LITCon. 
+	Q(26.3):GOTO:everyone
