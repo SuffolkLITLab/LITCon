@@ -207,7 +207,7 @@ A: A hard no.
 	A: Bye.
 		Q(13.1.2):GOTO:bye
 
-A: Convinced me.
+A: Convince me.
 	Q(13.2):GOTO:convince
 
 Q(thanks): We look forward to seeing you on the 8th. Please tell your friends. <br><br><img src="https://media.giphy.com/media/FpZvxELO5xE8QcFdoc/giphy.gif" style="width:232px;height:130px;"/>
