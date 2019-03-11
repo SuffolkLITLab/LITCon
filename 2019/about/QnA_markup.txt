@@ -78,14 +78,14 @@ A: Yes.
 	A: Give me a command line.
 		Q(4.1.2): <img src="https://media.giphy.com/media/gPkWsM6X5xLVe/giphy.gif" style="width:232px;height:174px;"/> 
 		A: I'd love to play a game. 
-			Q(4.1.2.1):<img src="//jasoneppink.com/wp-content/gallery/the-reaction-gif-moving-image-as-gesture/kermit.gif" style="width:232px;height:167px;"> GOTO:wargames
+			Q(4.1.2.1):<img src="https://jasoneppink.com/wp-content/gallery/the-reaction-gif-moving-image-as-gesture/kermit.gif" style="width:232px;height:167px;"> GOTO:wargames
 		A: Let's learn more about LITCon. 
 			Q(4.1.2.2):GOTO:everyone
 	A: What's a command line?
 		Q(4.1.3): <img src="https://media.giphy.com/media/NRa7dRkMlVZRE5HUU4/giphy.gif" style="width:232px;height:130px;"/> <br><br> It's that text interface you see computer folks using. Anyhow, it's not important. GOTO:everyone
 
 A: No.
-	Q(4.2): <img src="//www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:232px;height:174px;">GOTO:mproblems
+	Q(4.2): <img src="https://www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:232px;height:174px;">GOTO:mproblems
 
 
 Q(mproblems): Are there things about the way you (or the justice system) work(s) that you think could use improvement?
@@ -259,7 +259,7 @@ A: Yes
 A: No 
 	Q(20.2):Bye then. GOTO:bye
 
-Q(cats7): <img src="https://media.giphy.com/media/hPyONzUYJhLZS/giphy.gif" style="width:232px;height:196px;"/> 
+Q(cats7): <img src="https://media.giphy.com/media/hPyONzUYJhLZS/giphy.gif" style="width:232px;height:223px;"/> 
 <br><br> Do you need more?
 A: Yes
 	Q(21.1):GOTO:cats8
@@ -295,9 +295,9 @@ Q(wargames): How about a game of chess?
 A: Sounds good. I love chess.
 	Q(26.1): Your move (works best on a desktop). <br><br><iframe src="https://www.qnamarkup.org/templates/chess/" scrolling="no" seamless="seamless" style="overflow:hidden;width:260px;height:260px;border: solid 0px #eee;"></iframe> <br><br> Anywho, back to the conference... GOTO:everyone
 A: How about thermonuclear war?
-	Q(26.2): <img src="//i.imgur.com/WwpALFZ.gif" style="width:232px;height:131px;"><br><br>The only way to win is not to play! Have you actually seen <a href="//en.wikipedia.org/wiki/WarGames" target=_blank>War Games</a>?
+	Q(26.2): <img src="https://i.imgur.com/WwpALFZ.gif" style="width:232px;height:131px;"><br><br>The only way to win is not to play! Have you actually seen <a href="https://en.wikipedia.org/wiki/WarGames" target=_blank>War Games</a>?
 	A: Yes.
-		Q(26.2.1): <img src="//www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:232px;height:174px;"><br><br>Let's try again. GOTO:wargames
+		Q(26.2.1): <img src="https://www.reactiongifs.com/r/2013/06/I-dont-believe-you.gif" style="width:232px;height:174px;"><br><br>Let's try again. GOTO:wargames
 	A: No.
-		Q(26.2.2): My apologies. Let me just say, thermonuclear war is the wrong answer. <br><br><img src ="//i.giphy.com/uSHMDTUL7lKso.gif" style="width:232px;height:117px;"> GOTO:wargames
+		Q(26.2.2): My apologies. Let me just say, thermonuclear war is the wrong answer. <br><br><img src ="https://i.giphy.com/uSHMDTUL7lKso.gif" style="width:232px;height:117px;"> GOTO:wargames
 
