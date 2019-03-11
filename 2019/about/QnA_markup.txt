@@ -172,7 +172,7 @@ A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Sure, take me to registrat
 
 Q(network): Did you know LITCon is a great networking event, bringing together clinicians, legal services providers, educators, legal tech leaders, law students, and the like? It's not a complete list, but here are some <a href="https://twitter.com/SuffolkLITLab/lists/litcon2019" target="_blank">folks on Twitter</a> that are coming, and just look at that <a href="https://suffolklitlab.org/LITCon/2019/speakers/" target="_blank">speakers list</a>. 
 A: Just a little more convincing.
-	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:px;"/><br><br> We built this "bot" as a commentary on the state of legal tech to make it clear that we "get it." That should count for something, right? I mean, "this is not a chatbot," come on? Tech can be a powerful tool but only when you're clear-eyed about it's potential.<br><br> Plus, wait until you hear how much the conference costs... GOTO:whatcost
+	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:175px;"/><br><br> We built this "bot" as a commentary on the state of legal tech to make it clear that we "get it." That should count for something, right? I mean, "this is not a chatbot," come on? Tech can be a powerful tool but only when you're clear-eyed about it's potential.<br><br> Plus, wait until you hear how much the conference costs... GOTO:whatcost
 A: What does the conference cost?
 	Q(10.2):GOTO:whatcost
 A:[https://portalpro.suffolk.edu/forms3/Forms?v:=439] Take me to registration. 
