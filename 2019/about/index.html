@@ -34,7 +34,7 @@
 	<script src="../js/scripts.js?v=2019-03-04"></script>
 	
 	<script>
-		if (jQuery(window).width() < 750) {
+		if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
 	  		window.location.replace("bot_w_bar.html");	  
 		}
 	</script>
