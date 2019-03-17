@@ -32,6 +32,17 @@
 
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="../js/scripts.js?v=2019-03-04"></script>
+	
+	<script>
+	  if (jQuery(window).width() < 750) {
+	  	var ori_body = $('body').html();
+	  	
+	  	$.ajax({ url: 'https://suffolklitlab.org/LITCon/2019/about/bot.html', success: function(data) { 
+			$('body').html($(data).find('body'));
+		}});
+	  
+	  }
+	</script>
 
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="LIT Con 2019: About"/>
@@ -137,11 +148,11 @@
 <div id="hideme" class="hideme_content">
 	&nbsp;&nbsp;&nbsp;<a href="javascript:void('');" onClick="$('#page').show();$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px'});" style="color:#eee">STANDARD SITE ONLY (CLOSE NOT-A-BOT)</a>
 	<span style="float:right;font-size:12px;line-height:40px;"><a href="https://suffolklitlab.org/LITCon/2019/about/bot.html" target="_blank"><img src="../images/Icon_External_Link.png"/></a>&nbsp;&nbsp;&nbsp;</span>
-	</div><iframe id="qna" class="bot_content" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/bot.html"></iframe>
+	</div><iframe id="qna" name="qna" class="bot_content" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/bot.html"></iframe>
 
-<!--<div id="show" class="showme_content">
+<div id="show" class="showme_content">
 	<a href="javascript:void('');" onClick="$('#show').hide();$('#hideme').show();$('#qna').show();$('#page').css({'right':'375px'});" style="color:white">SHOW "BOT"</a>
-	</div>-->
+</div>
 
 <div id="page" class="main_content">
 	<iframe height="100%" width="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/about.html"></iframe>
