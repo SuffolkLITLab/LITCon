@@ -98,6 +98,12 @@
 		right:0;
 		width:376px;
 		height: calc(100% - 40px);
+		/* Firefox */
+		height: -moz-calc(100% - 40px);
+		/* WebKit */
+		height: -webkit-calc(100% - 40px);
+		/* Opera */
+		height: -o-calc(100% - 40px);
 		top:40;
 		bottom:0;
 		overflow:auto
@@ -126,16 +132,16 @@
 	</style>
 
 </head>
-<body style="height:100%;">
+<body>
 
 <div id="hideme" class="hideme_content">
 	&nbsp;&nbsp;&nbsp;<a href="javascript:void('');" onClick="$('#page').show();$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px'});" style="color:#eee">STANDARD SITE ONLY (CLOSE NOT-A-BOT)</a>
 	<span style="float:right;font-size:12px;line-height:40px;"><a href="https://suffolklitlab.org/LITCon/2019/about/bot.html" target="_blank"><img src="../images/Icon_External_Link.png"/></a>&nbsp;&nbsp;&nbsp;</span>
 	</div><iframe id="qna" class="bot_content" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/bot.html"></iframe>
 
-<div id="show" class="showme_content">
+<!--<div id="show" class="showme_content">
 	<a href="javascript:void('');" onClick="$('#show').hide();$('#hideme').show();$('#qna').show();$('#page').css({'right':'375px'});" style="color:white">SHOW "BOT"</a>
-	</div>
+	</div>-->
 
 <div id="page" class="main_content">
 	<iframe height="100%" width="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/about.html"></iframe>
