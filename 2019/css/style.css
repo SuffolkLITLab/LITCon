@@ -260,7 +260,7 @@ a.anchor {
 .name_frame{
 	width:79px;
   margin:5px;
-	float:right;
+	float:left;
 	text-align:center;
 	margin-left:4px;
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
