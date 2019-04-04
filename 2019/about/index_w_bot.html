@@ -32,6 +32,12 @@
 
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="../js/scripts.js?v=2019-03-04"></script>
+	
+	<script>
+		if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+	  		window.location.replace("bot_w_bar.html");	  
+		}
+	</script>
 
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="LIT Con 2019: About"/>
@@ -48,15 +54,18 @@
 	<style>
 	.main_content {
 		position:absolute;
-		display: inline-block;
+		box-sizing: border-box;
+		border-right: solid 1px #000;
 		z-index:1;
 		left:0px;
-		right:376px;
+		right:375px;
 		top:0;
 		bottom:0;
+		overflow:auto
 	}
 	.showme_content {
 		display:none;
+		box-sizing: border-box;
 		position:absolute;
 		z-index:100;
 		right:0;
@@ -73,10 +82,11 @@
 	}
 	.hideme_content {
 		position:absolute;
+		box-sizing: border-box;
 		border-left: solid 1px #000;
 		z-index:2;
 		right:0;
-		width:375px;
+		width:376px;
 		top:0;
 		height:40px;
 		background:#002e5d;
@@ -88,31 +98,40 @@
 	}
 	.bot_content {
 		position:absolute;
+		box-sizing: border-box;
 		border-left: solid 1px #000;
 		z-index:2;
 		right:0;
-		width:375px;
+		width:376px;
+		/* Standard */
+		height: calc(100% - 40px);
+		/* Firefox */
+		height: -moz-calc(100% - 40px);
+		/* WebKit */
+		height: -webkit-calc(100% - 40px);
+		/* Opera */
+		height: -o-calc(100% - 40px);
 		top:40;
 		bottom:0;
+		overflow:auto
 	}
 
 	@media only screen and (max-width: 750px) {
 		.showme_content {
 			display:none;
+			float:left;
 		}
 		.hideme_content {
-			display:none;
-			float:left;
 			width:100%;
+			border-left: solid 0px #000;
+			min-width:300px;
 		}
 		.bot_content {
-			display:none;
-			float:left;
-			right:0;
 			width:100%;
+			border-left: solid 0px #000;
 		}
 		.main_content {
-			float:left;
+			border-right: solid 0px #000;
 			width:100%;
 		}
 
@@ -121,21 +140,19 @@
 
 </head>
 <body>
-<div style="postion:relative;overflow:hidden;width:100%;height:100%;">
-	<div id="hideme" class="hideme_content">
-	<a href="javascript:void('');" onClick="$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px'});" style="color:white">CLOSE "BOT"</a>
-	</div>
-	<div id="qna" class="bot_content">
-		<iframe width="100%" height="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/bot.html"></iframe>
-	</div>
 
-	<!--<div id="show" class="showme_content">
-	<a href="javascript:void('');" onClick="$('#show').hide();$('#hideme').show();$('#qna').show();$('#page').css({'right':'375px'});" style="color:white">SHOW "BOT"</a>
-	</div>-->
+<div id="hideme" class="hideme_content">
+	&nbsp;&nbsp;&nbsp;<a href="javascript:void('');" onClick="$('#page').show();$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px','border-right': 'solid 0px #000'});" style="color:#eee">HIDE NOT-A-BOT</a>
+	<span style="float:right;font-size:12px;line-height:40px;"><a href="https://suffolklitlab.org/LITCon/2019/about/bot.html" target="_blank"><img src="../images/Icon_External_Link.png"/></a>&nbsp;&nbsp;&nbsp;</span>
+	</div><div id="qna" name="qna" class="bot_content"><iframe height="100%" width="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/bot.html"></iframe></div>
 
-	<div id="page" class="main_content">
-	<iframe height="100%" width="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/about.html"></iframe>
-	</div>
+<div id="show" class="showme_content">
+	<a href="javascript:void('');" onClick="$('#show').hide();$('#hideme').show();$('#qna').show();$('#page').css({'right':'375px','border-right': 'solid 1px #000'};);" style="color:white">SHOW "BOT"</a>
 </div>
+
+<div id="page" class="main_content">
+	<iframe height="100%" width="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/about.html"></iframe>
+</div>
+
 </body>
 </html>
