@@ -118,7 +118,7 @@ A: Tell me more about these weekend sessions.
 
 Q(proud): Anyhow, we're really proud of the agenda and our speakers. We'll be updating this <a href="https://suffolklitlab.org/LITCon/2020/speakers/" target="_blank">public list</a> as we confirm speakers. That being said, Suffolk County District Attorney <a href="https://suffolklitlab.org/LITCon/2020/speakers/#rollins" target="_blank">Rachael Rollins</a> is our keynote speaker, and she'll be talking about the importance of data in criminal justice. <br><br> Are you convinced?
 A: I need more convincing.
-	Q(moreconv): We also have these really great rapid-fire talks. Do you want to see last year's?
+	Q(moreconv): We also have these really great rapid-fire talks. Do you want to see some examples?
 	A: Yes.
 		Q(9.1.1): You can find a collection of them on the Lab's <a href="https://suffolklitlab.org/litbits/" target="_blank">LIT Bits page</a>. GOTO:evenmore
 	A: No.
