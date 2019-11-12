@@ -111,12 +111,12 @@ A: No.
 
 
 Q(everyone): LITCon's for everyone regardless of their comfort with tech. It's a single-day single-track conference though there are free skills building sessions and a hackathon over the weekend. The conference will feature speakers representing the full spectrum of legal tech endeavors with focus on clinical education and criminal justice.
-A: Who's the keynote?
+A: Who's speaking?
 	Q(keynote):GOTO:proud
 A: Tell me more about these weekend sessions.
 	Q(weekend): You can learn more over the <a href="https://suffolklitlab.org/LITCon/2020/hack/" target="_blank">event's website</a>, but the skills building sessions will include trainings tools for creating guided interviews and auto-generating documents such as <a href="https://docassemble.org/" target="_blank">Docassemble</a>, and <a href="https://www.qnamarkup.org/" target="_blank">QnA Markup</a>. <br><br>The hackathon portion of the weekend is in partnership with the <a href="http://dkmalone.com/2018/11/29/the-tubman-project/" target="_blank">Tubman Project</a> and will focus on creating tools for public defenders and their clients. GOTO:proud
 
-Q(proud): Anyhow, we're really proud of the agenda and our speakers. We'll be updating this <a href="https://suffolklitlab.org/LITCon/2020/speakers/" target="_blank">public list</a> as we confirm speakers. That being said, Suffolk County District Attorney <a href="https://suffolklitlab.org/LITCon/2020/speakers/#rollins" target="_blank">Rachael Rollins</a> is our keynote speaker, and she'll be talking about the importance of data in criminal justice. <br><br> Are you convinced?
+Q(proud): We're really proud of the agenda and our speakers. We'll be updating this <a href="https://suffolklitlab.org/LITCon/2020/speakers/" target="_blank">public list</a> as we confirm speakers. That being said, Suffolk County District Attorney <a href="https://suffolklitlab.org/LITCon/2020/speakers/#rollins" target="_blank">Rachael Rollins</a> is our keynote speaker, and she'll be talking about the importance of data in criminal justice. <br><br> Are you convinced?
 A: I need more convincing.
 	Q(moreconv): We also have these really great rapid-fire talks. Do you want to see some examples?
 	A: Yes.
