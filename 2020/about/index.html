@@ -7,7 +7,7 @@
 	<meta name="apple-mobile-web-app-capable" content="no" />
 	<link rel="apple-touch-icon" href="../images/icon_300.png"/>
 
-	<link rel="stylesheet" type="text/css" href="../css/style.css?v=2020-03-29">
+	<link rel="stylesheet" type="text/css" href="../css/style.css?v=2019-03-29">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108858221-1"></script>
@@ -29,95 +29,130 @@
 	ga('send', 'pageview');
 	</script>
 	<!-- End Google Analytics -->
+
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="../js/scripts.js?v=2020-04-09"></script>
+	<script src="../js/scripts.js?v=2019-04-09"></script>
+
+	<script>
+		if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+	  		window.location.replace("bot_4_phone.html");
+		}
+	</script>
 
 	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="LIT Con 2020: About"/>
+	<meta property="og:title" content="LIT Con 2019: About"/>
 	<meta property="og:description" content="Join Suffolk University's Law Clinical Programs and the Legal Innovation and Technology (LIT) Concentration for our annual LIT conference."/>
 	<meta property="og:image" content="https://suffolklitlab.org/LITCon/2020/images/socmedia_header_about.png"/>
 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@SuffolkLITLab">
 	<meta name="twitter:creator" content="@SuffolkLITLab">
-	<meta name="twitter:title" content="LIT Con 2020: About">
+	<meta name="twitter:title" content="LIT Con 2019: About">
 	<meta name="twitter:description" content="Join Suffolk University's Law Clinical Programs and the Legal Innovation and Technology (LIT) Concentration for our annual LIT conference.">
 	<meta name="twitter:image" content="http://www.davidcolarusso.com/images/litcon2020/socmedia_header_about.png"/>
 
+	<style>
+	.main_content {
+		position:absolute;
+		box-sizing: border-box;
+		border-right: solid 1px #000;
+		z-index:1;
+		left:0px;
+		right:375px;
+		top:0;
+		bottom:0;
+		overflow:auto
+	}
+	.showme_content {
+		display:none;
+		box-sizing: border-box;
+		position:absolute;
+		z-index:100;
+		right:0;
+		width:115px;
+		bottom:0;
+		height:43px;
+		background:#002e5d;
+		text-align:center;
+		color:white;
+		font-size:12px;
+		font-family:arial;
+		line-height:40px;
+		border-top-left-radius: 15px;
+	}
+	.hideme_content {
+		position:absolute;
+		box-sizing: border-box;
+		border-left: solid 1px #000;
+		z-index:2;
+		right:0;
+		width:376px;
+		top:0;
+		height:40px;
+		background:#002e5d;
+		text-align:center;
+		color:white;
+		font-size:12px;
+		font-family:arial;
+		line-height:40px;
+	}
+	.bot_content {
+		position:absolute;
+		box-sizing: border-box;
+		border-left: solid 1px #000;
+		z-index:2;
+		right:0;
+		width:376px;
+		/* Standard */
+		height: calc(100% - 40px);
+		/* Firefox */
+		height: -moz-calc(100% - 40px);
+		/* WebKit */
+		height: -webkit-calc(100% - 40px);
+		/* Opera */
+		height: -o-calc(100% - 40px);
+		top:40;
+		bottom:0;
+		overflow:auto
+	}
+
+	@media only screen and (max-width: 750px) {
+		.showme_content {
+			display:none;
+			float:left;
+		}
+		.hideme_content {
+			width:100%;
+			border-left: solid 0px #000;
+			min-width:300px;
+		}
+		.bot_content {
+			width:100%;
+			border-left: solid 0px #000;
+		}
+		.main_content {
+			border-right: solid 0px #000;
+			width:100%;
+		}
+
+	}
+	</style>
+
 </head>
-<body onLoad="msg();">
-<div class="header">
-<div class="logo">
-<a href="https://www.suffolk.edu/law/" target="_top"><div class="seal">&nbsp;</div></a>
-<a href="../../" target="_top"><img src="../images/cursor.gif" border="0" width="275px" height="200px"/></a>
+<body>
+
+<div id="hideme" class="hideme_content">
+	&nbsp;&nbsp;&nbsp;<a href="javascript:void('');" onClick="$('#page').show();$('#show').show();$('#hideme').hide();$('#qna').hide();$('#page').css({'right':'0px','border-right': 'solid 0px #000'});" style="color:#eee">HIDE NOT-A-BOT</a>
+	<span style="float:right;font-size:12px;line-height:40px;"><a href="bot.html" target="_blank"><img src="../images/Icon_External_Link.png"/></a>&nbsp;&nbsp;&nbsp;</span>
+	</div><div id="qna" name="qna" class="bot_content"><iframe height="100%" width="100%" frameBorder="0" src="https://suffolklitlab.org/LITCon/2019/about/bot.html"></iframe></div>
+
+<div id="show" class="showme_content">
+	<a href="javascript:void('');" onClick="$('#show').hide();$('#hideme').show();$('#qna').show();$('#page').css({'right':'375px','border-right': 'solid 1px #000'});" style="color:white">SHOW "BOT"</a>
 </div>
+
+<div id="page" class="main_content">
+	<iframe height="100%" width="100%" frameBorder="0" src="about.html"></iframe>
 </div>
-<div class="menu_bar">
-	<a href="../about/" class="menu" target="_top">About</a>
-	<a href="../agenda/" class="menu" target="_top">Agenda</a>
-	<a href="../speakers/" class="menu" target="_top">Speakers</a>
-	<a href="../litbits/" class="menu" target="_top">LIT&nbsp;Bits</a>
-	<a href="../hack/" class="menu" target="_top">Weekend&nbsp;Hack</a>
-	<a href="../accommodations/" class="menu" target="_top">Accommodations</a>
-	<a href="https://suffolklitlab.slack.com/messages/CGAGZ17FB/" class="menu" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'Open Slack');">Slack</a>
-	<a href="https://twitter.com/search?f=tweets&q=%23LITCon2020" class="menu" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'LITCon2020');">#LITCon2020</a>
-	<a href="https://suffolklitlab.org/events/#past" class="menu" target="_blank">Past</a>
-</div>
-<div class="content">
 
-	<p id="msg" style="display:none;background:#ffe;padding:15px;border: solid 1px #888;margin-top:5px;text-align:center;"></p>
-
-	<h2 align=center>Join Suffolk Law's Clinical Programs and Legal Innovation and Technology (LIT) Concentration for our third annual legal tech conference exploring LIT in the context of clinical education and criminal justice—LIT Con 2020.</h2>
-
-	<div style="text-align:center;max-width:500px;margin:0 auto;">
-		<p><img src="../images/socmedia_header_keynote.png" style="width:100%;"/></p>
-	</div>
-
-	<div style="float:left;;width:100%;">
-	<li><b>Keynote Speaker:</b> Suffolk County District Attorney <a href="../speakers/#rollins" target="_top">Rachael Rollins</a></li>
-	<li>
-		Network with clinicians, legal services providers, educators, and legal tech leaders.
-	</li>
-
-	<p style="text-align:center;width:100%;">
-		<font size=+2><b style="color:red" target="_blank" onClick="ga('send', 'event', 'clicks', 'click', 'Registration');">Save the Date</b></font>
-		</br>
-			(Public service waivers available)
-	</p>
-
-	<p style="text-align:center">Monday, March 30, 2020*<br/>
-	9:00 AM - 6:00 PM</p>
-
-	<p style="text-align:center">
-	Suffolk Law, Sargent Hall <br/>
-	120 Tremont St., Boston, MA 02108 <br/>
-	1st Floor Function Room <br/>
-	</p>
-
-	<p style="text-align:center">*March 28-29 there will be a <a href="https://suffolklitlab.org/LITCon/2020/hack/" target="_top">free skills training weekend and a hackathon</a>.</p>
-
-	<p style="text-align:center;background:#eef;padding:15px;"><a href="../litbits/"  target="_top"><font size=+2><b>Open Call for Rapid-fire talks.</a></b></font></br> (limited funds are available to defer costs for diverse speakers)</p>
-
-	<p style="text-align:center">
-	<b>Questions or accommodations?</b><br> Please contact Melissa Guirand at
-	<a href="mailto:mguirand@suffolk.edu">mguirand@suffolk.edu</a>
-	</p>
-
-	<p style="text-align:center">
-		Note: All attendees are subject to our <a href="../conduct/" target="_top">Code of Conduct</a>.
-	</p>
-
-	</div>
-
-
-<div class="footer">
-	<a href="https://suffolklitlab.org/" target="_top"><img src="../images/blue_logo.png" width="50px" align="left" border="0"/></a>
-
-Suffolk Law Clinical Program, 120 Tremont St., Boston, MA 02108<br/><br/>
-Hosted by the Suffolk University Law School's <br/><a href="https://www.suffolk.edu/law/clinics" target="_top">Clinical Programs</a>, <a href="https://sites.suffolk.edu/legaltech/" target="_top">LIT Institute</a>, and <a href="https://suffolklitlab.org/" target="_top">LIT Lab</a>.
-
-<br/><br/><a href="mailto:mguirand@suffolk">Contact</a>
-| <a href="https://suffolklitlab.org/terms/" target="_top">Terms &amp; Privacy</a> | <a href="https://suffolklitlab.org/LITCon/2020/conduct/" target="_top">Code of Conduct</a>
-</div>
 </body>
 </html>
