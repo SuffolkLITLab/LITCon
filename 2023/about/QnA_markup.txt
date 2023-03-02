@@ -44,7 +44,7 @@ body{
 </style>
 <div id="icon"></div>
 <h2 align=center>This Is Not A Chatbot</h2>
-<p>It's an interactive flowchart to help you decide if you should attend <a href="https://law.builders/@SuffolkLITLab" target="_blank">@SuffolkLITLab</a>'s annual legal innovation and technology (LIT) conference—<a href="https://suffolklitlab.org/LITCon/2023/about/about.html" target="_blank">LITCon2023</a>. ProTip: We used a free tool to make this "bot," and it only takes about 20 minutes to learn. Isn't technology grand? Also, there are Easter eggs. ;)</p>
+<p>It's an interactive flowchart to help you decide if you should <a href="https://forms.gle/gVP6Xq1C63ZK2cDC9" target="_blank">register</a> for <a href="https://law.builders/@SuffolkLITLab" target="_blank">@SuffolkLITLab</a>'s annual legal innovation and technology (LIT) conference—<a href="https://suffolklitlab.org/LITCon/2023/about/about.html" target="_blank">LITCon2023</a>. ProTip: We used a free tool to make this "bot," and it only takes about 20 minutes to learn. Isn't technology grand? Also, there are Easter eggs. ;)</p>
 
 Q(1): Can you make it to Boston on April 3rd, 2023?
 A: Yes.
@@ -137,14 +137,14 @@ A: I need more convincing.
 					Q(9.1.2.2.1.1):GOTO:network
 				A: What does the conference cost?
 					Q(9.1.2.2.1.2):GOTO:whatcost
-				A:[https://forms.gle/WwG2H6DeZn4e1oah6] Let me know when registration is live
+				A:[https://forms.gle/gVP6Xq1C63ZK2cDC9] Take me to registration
 					Q(9.1.2.2.1.3):GOTO:thanks
 			A: No.
 				Q(9.1.2.2.2):GOTO:network
 
 A: What does the conference cost?
 	Q(whatcost): A measly $25 if you get the early bird discount ($50 after March 15). That includes a continental breakfast, hot lunch, and cocktails. <br><br><img src="https://media.giphy.com/media/5IMcyqKbkg0O4/giphy.gif" style="width:232px;height:128px;"/>
-	A:[https://forms.gle/WwG2H6DeZn4e1oah6] Let me know when registration is live
+	A:[https://forms.gle/gVP6Xq1C63ZK2cDC9] Take me to registration
 		Q(9.2.1):GOTO:thanks
 	A: What if $25 is too much?
 		Q(9.2.2): Do you work in public interest?
@@ -164,7 +164,7 @@ A: What does the conference cost?
 						Q(9.2.2.2.2.1.2):GOTO:bye
 				A: No.
 					Q(9.2.2.2.2.2): I'm sorry. I'm not sure we can help. GOTO:nexttime
-A:[https://forms.gle/WwG2H6DeZn4e1oah6] Let me know when registration is live
+A:[https://forms.gle/gVP6Xq1C63ZK2cDC9] Take me to registration
 	Q(9.3):GOTO:thanks
 
 
@@ -173,7 +173,7 @@ A: Just a little more convincing.
 	Q(10.1):<img src="https://media.giphy.com/media/xUySTzHsAP7FIG18oU/giphy.gif" style="width:232px;height:175px;"/><br><br> We built this "bot" as a commentary on the state of legal tech to make it clear that we "get it." That should count for something, right? I mean, "this is not a chatbot," come on? Tech can be a powerful tool but only when you're clear-eyed about it's potential.<br><br> Plus, wait until you hear how much the conference costs... GOTO:whatcost
 A: What does the conference cost?
 	Q(10.2):GOTO:whatcost
-A:[https://forms.gle/WwG2H6DeZn4e1oah6] Let me know when registration is live
+A:[https://forms.gle/gVP6Xq1C63ZK2cDC9] Take me to registration
 	Q(10.3):GOTO:thanks
 
 
