@@ -149,7 +149,7 @@ A: What does the conference cost?
 	A: What if $25 is too much?
 		Q(9.2.2): Do you work in public interest?
 		A: Yes.
-			Q(9.2.2.1): Email <a href="mailto:litlab@suffolk">litlab@suffolk</a> and ask for a pubic service waiver. GOTO:thanks
+			Q(9.2.2.1): Email <a href="mailto:litlab@suffolk">litlab@suffolk</a> and ask for a public service waiver. GOTO:thanks
 		A: No.
 			Q(9.2.2.2): Are you a student?
 			A: Yes.
