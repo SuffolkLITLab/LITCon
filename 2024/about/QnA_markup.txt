@@ -208,7 +208,7 @@ A: A hard no
 A: Convince me
 	Q(13.2):GOTO:convince
 A: Remote
-	Q(13.3): Well then, good news! There will be a free online option <a href="https://forms.gle/WwG2H6DeZn4e1oah6" target="_blank">sign up here</a> to get updates. GOTO:convince
+	Q(13.3): Well then, good news! There will be a free online option <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3T4471XKgPYZ4dfU2_VV_KprFFDGqCbpE0hOV-ITJuBe_UQ/viewform" target="_blank">sign up here</a> to get updates. GOTO:convince
 
 
 Q(thanks): We look forward to seeing you on the 3rd. Please tell your friends. <br><br><img src="https://media.giphy.com/media/FpZvxELO5xE8QcFdoc/giphy.gif" style="width:232px;height:130px;"/>
