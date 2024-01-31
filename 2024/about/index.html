@@ -33,11 +33,13 @@
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="../js/scripts.js?v=2019-04-09"></script>
 
+	<!--
 	<script>
 		if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
 	  		window.location.replace("bot_4_phone.html");
 		}
 	</script>
+	-->
 
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="LIT Con 2024: About"/>
@@ -121,18 +123,20 @@
 			display:none;
 			float:left;
 		}
+		.main_content {
+			border-right: solid 0px #000;
+			width:100%;
+		}
 		.hideme_content {
+			display:none;
 			width:100%;
 			border-left: solid 0px #000;
 			min-width:300px;
 		}
 		.bot_content {
+			display:none;
 			width:100%;
 			border-left: solid 0px #000;
-		}
-		.main_content {
-			border-right: solid 0px #000;
-			width:100%;
 		}
 
 	}
