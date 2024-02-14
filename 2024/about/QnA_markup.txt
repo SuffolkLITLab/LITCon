@@ -157,7 +157,7 @@ A: What does the conference cost?
 			A: No.
 				Q(9.2.2.2.2): Presenters don't have to pay. Would you consider proposing a rapid-fire talk?
 				A: Yes.
-					Q(9.2.2.2.2.1): Great. You can find more info about pitching a rapid-fire talk <a href="https://suffolklitlab.org/LITCon/2024/litbits/" target="_blank">here</a>. We hope to see you on the 3rd.
+					Q(9.2.2.2.2.1): Great. You can find more info about pitching a rapid-fire talk <a href="https://suffolklitlab.org/LITCon/2024/litbits/" target="_blank">here</a>. We hope to see you on the 8th.
 					A: Can I have cat pictures now?
 						Q(9.2.2.2.2.1.1):GOTO:cats1
 					A: Bye.
@@ -211,7 +211,7 @@ A: Remote
 	Q(13.3): Well then, good news! There will be a free online option <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3T4471XKgPYZ4dfU2_VV_KprFFDGqCbpE0hOV-ITJuBe_UQ/viewform" target="_blank">sign up here</a> to get updates. GOTO:convince
 
 
-Q(thanks): We look forward to seeing you on the 3rd. Please tell your friends. <br><br><img src="https://media.giphy.com/media/FpZvxELO5xE8QcFdoc/giphy.gif" style="width:232px;height:130px;"/>
+Q(thanks): We look forward to seeing you on the 8th. Please tell your friends. <br><br><img src="https://media.giphy.com/media/FpZvxELO5xE8QcFdoc/giphy.gif" style="width:232px;height:130px;"/>
 A: Can I have cat pictures now?
 	Q(14.1):GOTO:cats1
 A: Bye.
