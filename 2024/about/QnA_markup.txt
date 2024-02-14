@@ -116,7 +116,7 @@ Q(proud): We're really proud of the agenda and our speakers. We'll be updating t
 A: I need more convincing.
 	Q(moreconv): We also have these really great rapid-fire talks. Do you want to see some examples?
 	A: Yes.
-		Q(9.1.1): You can find a collection of them on the Lab's <a href="https://suffolklitlab.org/litbits/" target="_blank">LIT Bits page</a>. GOTO:evenmore
+		Q(9.1.1): You can find a collection of them on the Lab's <a href="https://www.youtube.com/watch?v=ar9syraNngA&list=PLy6i9GFGw5GwuczR7PkFoaKDk2ic78loP" target="_blank">LIT Bits page</a>. GOTO:evenmore
 	A: No.
 		Q(evenmore): Did I mention that we'll be showing off student work?
 		A: Yes.
