@@ -203,7 +203,7 @@ A: No.
 
 Q(notavailable): <img src="https://media.giphy.com/media/33iqmp5ATXT5m/giphy.gif" style="width:232px;height:99px;"/><br><br> Too bad. Is that a hard no or an "I need convincing" no?
 A: A hard no.
-	Q(nexttime): Maybe next time. <!--Please keep March 30, 2020 open. That's when we'll be having LITCon2020.<br><br><img src="https://suffolklitlab.org/LITCon/2021/images/LIT_Con_2021_square_logo.png" style="width:232px;height:232px;"/>-->
+	Q(nexttime): Maybe next time. <!--Please keep March 30, 2020 open. That's when we'll be having LITCon2020.<br><br><img src="https://projects.suffolklitlab.org/LITCon/2021/images/LIT_Con_2021_square_logo.png" style="width:232px;height:232px;"/>-->
 	A: Can I have cat pictures now?
 		Q(14.1.1):GOTO:cats1
 	A: Bye.
